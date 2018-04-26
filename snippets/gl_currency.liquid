@@ -1,0 +1,16 @@
+{%- assign currencies = settings.supported_currencies | split: '|' -%}
+<li id="menu-item-19041994" class="currency menu-item menu-item-19041994 menu-item-has-children menu-item-design-default item-event-hover">
+   <a href="#" class="value current-currency">{{ shop.currency }}</a>
+   <div class="sub-menu-dropdown color-scheme-dark">
+      <div class="container">
+         <ul class="sub-menu color-scheme-dark">
+         	{%- for money in currencies -%}
+         		{%- assign array_money = money | split: '-' -%}
+         		{%- assign data_currency = array_money[0] | upcase | strip -%}
+         		{%- assign name_money = array_money[1] | strip -%}
+         		 <li data-currency="{{ data_currency }}" class="menu-item menu-item-design-default item-event-hover"><a href="#">{{ name_money }}</a></li>
+         	{%- endfor -%}
+         </ul>
+      </div>
+   </div>
+</li>

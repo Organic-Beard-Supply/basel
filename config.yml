@@ -1,0 +1,19 @@
+SHARED: &SHARED
+  store: organic-beard-supply.myshopify.com
+  password: 43b92ea531486beb0b68653657058048
+  ignore_files:
+    - "*.swp"
+    - "*~"
+    - "config/settings_data.json"
+
+dev:
+  <<: *SHARED
+  theme_id: "12296912992"
+staging:
+  <<: *SHARED
+  theme_id: "12296945760"
+production:
+  <<: *SHARED
+  theme_id: "9995419689"
+  timeout: 60s
+  readonly: true

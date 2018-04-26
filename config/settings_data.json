@@ -1,0 +1,2100 @@
+{
+  "current": {
+    "api_key": "AIzaSyBsugLG8y-6eAr3FiGHFje_rWAv2kAxMQo",
+    "newsletter_form_action": "https:\/\/organicbeardsupply.us11.list-manage.com\/subscribe\/post?u=950b50fa275ff9b60746ed84d&amp;id=cc00bcb545",
+    "enable_update": false,
+    "use_rtl": false,
+    "show_backtop": false,
+    "catalog_mode": false,
+    "show_col_mobile": false,
+    "use_wishlist": true,
+    "use_quickview": true,
+    "use_compare": true,
+    "show_img_second": true,
+    "show_product_rating": false,
+    "show_product_color": false,
+    "product_layout_setting": "1",
+    "swatch_home_size": "small",
+    "label_settings": "rounded",
+    "use_sale_label": true,
+    "label_sale_style": "2",
+    "use_sold_out_label": false,
+    "use_new_label": false,
+    "new_day": "14",
+    "use_hot_label": false,
+    "favicon": "shopify:\/\/shop_images\/favicon_a32f33d8-2d75-4b22-8092-4b4a37ebba0c.png",
+    "favicon_apple": "shopify:\/\/shop_images\/favicon_2x_ef8478c8-aa51-4a79-b19d-9956e67e0286.png",
+    "general_layout": "full_width",
+    "body_bg": "rgba(0,0,0,0)",
+    "body_bg_repeat": "repeat",
+    "body_bg_size": "default",
+    "body_bg_attachment": "default",
+    "body_bg_position": "default",
+    "body_bg_image": "",
+    "page_title_design": "centered",
+    "page_show_breadcrumbs": true,
+    "pages_bg": "#271c26",
+    "pages_bg_repeat": "default",
+    "pages_bg_size": "default",
+    "pages_bg_attachment": "default",
+    "pages_bg_position": "default",
+    "pages_bg_image": "",
+    "page_title_size": "small",
+    "page_title_color": "light",
+    "body_logo_svg": "obs-logo-text-green.svg",
+    "body_logo_image": "",
+    "body_logo_image_retina": "",
+    "logo_width": 20,
+    "logo_max_width": "126px",
+    "logo_max_height": "80",
+    "body_logo_image_sticky": "",
+    "logo_max_width_sticky": "146",
+    "logo_max_height_sticky": "70px",
+    "top_bar_enable": false,
+    "top_bar_color": "light",
+    "top_bar_bg": "#613f4c",
+    "top_bar_bg_repeat": "default",
+    "top_bar_bg_size": "inherit",
+    "top_bar_bg_attachment": "default",
+    "top_bar_bg_position": "default",
+    "top_bar_bg_image": "",
+    "top_bar_text": "<i class=\"fa fa-truck\" style=\"color:white;\"> <\/i> <a href=\"\/collections\/all\" style=\"margin-left:3px; border-bottom: 1px solid rgba(255,255,255,0.3);\">$49+\n Domestic Orders Ship Free<\/a>",
+    "full_header_enable": true,
+    "sticky_header_enable": true,
+    "header_design": "shop",
+    "overlap_header_enable": true,
+    "right_column_width": "300",
+    "header_height": "95",
+    "header_sticky_height": "75",
+    "mobile_header_height": "65",
+    "cart_position": "side",
+    "cart_design": "1",
+    "shopping_icon_alt": false,
+    "cart_notes_widget_enable": true,
+    "basel_options_add_to_cart_action": "widget",
+    "header_color_scheme": "dark",
+    "header_bg": "#ffffff",
+    "bg_header_sticky": "rgba(0,0,0,0)",
+    "header_bg_repeat": "default",
+    "header_bg_size": "default",
+    "header_bg_attachment": "default",
+    "header_bg_position": "default",
+    "header_bg_image": "",
+    "header_border_color": "",
+    "header_border_style": "solid",
+    "header_border": "",
+    "header_icon_style": "line",
+    "basel_menu_align": "left",
+    "header_text_ss": "",
+    "basel_search_widget": "full-screen",
+    "ajax_search": true,
+    "ajax_search_mobile": true,
+    "only_search_products": true,
+    "enable_search_category": true,
+    "display_wishlist_icon": true,
+    "sticky_footer_enable": false,
+    "footer_design": "12",
+    "footer_social_design": "icons-design-default",
+    "footer_social_size": "icons-size-default",
+    "footer_color_scheme": "light",
+    "footer_bg": "#271c26",
+    "footer_bg_repeat": "default",
+    "footer_bg_size": "default",
+    "footer_bg_attachment": "default",
+    "footer_bg_position": "default",
+    "footer_bg_image": "",
+    "copyrights_layout": "centered",
+    "copyrights_text": "<i class=\"fa fa-copyright\"><\/i>2018 Copyright <a href=\"\/\" style=\" color:white\">OBS<\/a>.",
+    "copyrights_next_text": "",
+    "html_before_footer": "",
+    "font_body_text": "Roboto",
+    "size_body_text": 16,
+    "font_titles_text": "Roboto",
+    "style_titles_text": "normal_normal",
+    "font_title_products": "Lora",
+    "style_title_products": "400",
+    "font_secondary_products": "Satisfy",
+    "style_secondary_products": "normal_normal",
+    "font_info": "",
+    "style_font_info": "normal_normal",
+    "font_post": "Lato",
+    "style_font_post": "400_italic",
+    "font_navigation": "",
+    "size_navigation": 14,
+    "style_navigation": "normal_normal",
+    "use_dark_version": false,
+    "color_light_mobile_menu": true,
+    "color_body_text": "#8b8b8b",
+    "color_titles_text": "#1a1a1a",
+    "color_title_products": "#1a1a1a",
+    "color_primary": "#79a404",
+    "mega_navigation_hover": "#613f4c",
+    "color_navigation": "",
+    "color_sale_bg": "#d9320d",
+    "color_new_bg": "#4c7e66",
+    "color_hot_bg": "#fcc419",
+    "color_sold_out_bg": "#482633",
+    "use_promo_banner_collection": true,
+    "use_top_categories": true,
+    "top_categories_source": "top_categories_link_list",
+    "top_categories_link_list": "collections-link-list",
+    "collection_bg": "#271c26",
+    "collection_bg_repeat": "default",
+    "collection_bg_size": "cover",
+    "collection_bg_attachment": "scroll",
+    "collection_bg_position": "center_bottom",
+    "collection_bg_image": "",
+    "use_specify_image": false,
+    "shop_sidebar": "right",
+    "shop_size_sidebar": "2",
+    "view_default": "grid",
+    "products_per_page": "12",
+    "use_pagination": "infinit",
+    "products_columns": "4",
+    "products_hover": "quick",
+    "sale_countdown": false,
+    "loop_sale_countdown": false,
+    "collection_countdown_style": "dark",
+    "ajax_shop": true,
+    "shop_filters": true,
+    "shop_show_per_page": false,
+    "grid_list": true,
+    "shop_image_size": "",
+    "shop_masonry_grid": false,
+    "shop_different_grid": false,
+    "show_des_collection": false,
+    "product_sidebar": "1",
+    "size_sidebar": "1",
+    "design_products": "1",
+    "size_img_products": "2",
+    "pr_image_size": "",
+    "pr_thumb_image_size": "",
+    "thumbnails_position": "left",
+    "main_click": "zoom",
+    "disable_download_img": true,
+    "show_zoom_img": true,
+    "button_art_to_cart_style": "2",
+    "size_chart": false,
+    "image_size_chart": "",
+    "product_img_trust_seal": false,
+    "img_trust_seal": "",
+    "show_real_time_visitor": false,
+    "text_real": "Real time",
+    "text_visitor": "Visitors right now",
+    "product_bg": "rgba(0,0,0,0)",
+    "product_bg_repeat": "default",
+    "product_bg_size": "default",
+    "product_bg_attachment": "default",
+    "product_bg_position": "default",
+    "product_bg_image": "",
+    "show_share_btn": true,
+    "share_type": "1",
+    "color_name_check": "",
+    "show_product_page_rating": true,
+    "show_grouped_variant_image": false,
+    "use_view_360": false,
+    "use_clicking_variant_image": true,
+    "product_quantity_message": true,
+    "use_description_excerpt": true,
+    "use_description_full": false,
+    "prodcut_excerpt_length": "100",
+    "font_style_des": "normal",
+    "font_weight_des": "normal",
+    "font_text_des": "none",
+    "show_sku": false,
+    "show_category_product": true,
+    "show_tag_product": true,
+    "swatch_design": "1",
+    "swatch_style": "1",
+    "swatch_size": "small",
+    "show_countdown": true,
+    "loop_show_countdown": false,
+    "countdown_style": "dark",
+    "show_related_products": true,
+    "title_pr_related": "Related products",
+    "related_products_use": "use_collection",
+    "many_related_products": 8,
+    "related_products_hover": "quick",
+    "related_image_size": "",
+    "related_sale_countdown": true,
+    "loop_related_countdown": false,
+    "related_countdown_style": "light",
+    "related_silder_speed": "11000",
+    "related_silder_per_view": "4",
+    "related_hide_pagination": false,
+    "related_hide_button": true,
+    "related_slider_loop": true,
+    "related_autoplay": false,
+    "show_recently_products": true,
+    "title_pr_recently": "Recently viewed products",
+    "many_recently_products": 12,
+    "recently_products_hover": "quick",
+    "recently_image_size": "",
+    "recently_sale_countdown": true,
+    "loop_recently_countdown": false,
+    "recently_countdown_style": "light",
+    "recently_silder_speed": "12000",
+    "recently_silder_per_view": "4",
+    "recently_hide_pagination": false,
+    "recently_hide_button": true,
+    "recently_slider_loop": false,
+    "recently_autoplay": false,
+    "show_custom_css": true,
+    "global_custom_css": "\/* Custom Style Guide Colors *\/\n.eggplant { color: #613f4c; }\n.kale { color: #32644c; }\n.blueberry { color: #114b5f; }\n.carrot { color: #ef6c00; }\n.red { color: #d9320d; }\n.text-white { color: #fff; }\n\n\/* Manually override \"add to cart\" button on product page *\/\n.nathan_style_2.single-product-content .cart .button {\n  vertical-align: top;\n}\n\n\/* Manually override \"add to cart\" button:hover on product page *\/\n.nathan_style_2.single-product-content .cart .button:focus, .nathan_style_2.single-product-content .cart .button:hover {\n  border-bottom: none !important; \/\/has to be !important because it is set as !important in the theme code\n}\n\n\/* Manually override \"Alternative\" button color, plus \"newsletter\" button color*\/\n.added_to_cart.btn-color-alt, .btn.btn-color-alt, .button.btn-color-alt, button.btn-color-alt, input[type=submit].btn-color-alt, .color-scheme-light .mc4wp-form input[type=submit] {\n   background-color: #79a404;\n    color: #fff;\n    border-color: #79a404;\n}\n\n\/* Manually override \"Alternative\" button:hover and button:focus, plus \"newsletter\" button color *\/\n .added_to_cart.btn-color-alt:focus, .added_to_cart.btn-color-alt:hover, .btn.btn-color-alt:focus, .btn.btn-color-alt:hover, .button.btn-color-alt:focus, .button.btn-color-alt:hover, button.btn-color-alt:focus, button.btn-color-alt:hover, input[type=submit].btn-color-alt:focus, input[type=submit].btn-color-alt:hover, .color-scheme-light .mc4wp-form input[type=submit]:focus, .color-scheme-light .mc4wp-form input[type=submit]:hover {\n  background-color: #93be1e;\n  border-color: #93be1e;\nopacity: 1;\n}\n\n\/* Increase font-size of font on \"Mission & Culture\" (Template: Our Shop) *\/\narticle#post-5130977321 p {\n    font-size: 20px;\n}\n\n\/* Convert button link to button on \"Mission & Culture\" (Template: Our Shop)*\/\narticle#post-5130977321 a.btn {\n    background-color: #79a404;\n    color: #fff;\nfont-size: 18px;\n    line-height: 22px;\n    padding: 15px 40px;\n    display: inline-block;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: .3px;\n    border-radius: 5px;\n    border: 1px solid;\n    border-color: #79a404;\n    -o-transition: all .25s ease-in-out;\n    transition: all .25s ease-in-out;\n    vertical-align: baseline;\n}\n\n\/* button:hover and button:focus on \"Mission & Culture\" (Template: Our Shop)*\/\narticle#post-5130977321 a.btn:hover, article#post-5130977321 a.btn:focus {\n  background-color: #93be1e;\n  border-color: #93be1e;\n}\n\n\/* Manually override radius of \"rounded\" buttons *\/\n.added_to_cart.btn-round, .added_to_cart.btn-style-round, .btn.btn-round, .btn.btn-style-round, .button.btn-round, .button.btn-style-round, button.btn-round, button.btn-style-round, input[type=\"submit\"].btn-round, input[type=\"submit\"].btn-style-round {\n    border-radius: 5px;\n}\n\n\/* Add background to collection images *\/\n.tea_banner_lookbook .collection-grid-item__title, body.template-list-collections .collection-grid-item__title {\n    background: rgba(0,0,0,.5);\n}\n\n\/* Remove border radius from \"Aromacare Aroma\" page (Template: About Me) *\/\narticle#post-10850336810 .entry-content img {\n    border-radius: 0;\n}\n\n.basel-header-overlap .title-size-default, .basel-header-overlap .title-size-small, .basel-header-overlap .title-shop.without-title.title-size-default, .basel-header-overlap .title-shop.without-title.title-size-small {\n padding-bottom: 30px;\n}\n\n\/* Customize button on home page hero*\/\n.gl_btn3.gl_btn3-color-white.gl_btn3-style-gradient {\n    color: #ffffff;\nfont-weight: bold;\n    border: none;\n    background-color: #79a404;\n    -webkit-transition: all .2s ease-in-out;\n    transition: all .2s ease-in-out;\n    background-size: 200% 100%;\n    border-radius: 5px;\n    display: inline-block;\n    margin-bottom: 0;\n    text-align: center;\n    vertical-align: middle;\n    cursor: pointer;\n    text-decoration: none;\n    font-size: 16px;\n    padding: 18px 25px;\n}\n\n\/* Customize button:hover on home page hero*\/\n.gl_btn3.gl_btn3-color-white.gl_btn3-style-gradient:hover {\n    color: #ffffff;\n    background-color: #482633;\n    border: none;\n    background-position: 100% 0;\n}\n\n\/* Update the styling of the 4-up in \"Shop\" menu *\/\n.gl_custom_1474894251362 {\n    padding-top: 15px;\n    border-top: 1px solid #dfd8d8;\n    width: 100%;\n}\n\n\/* Update style of scroll to top element *\/\n.scrollToTop {\n    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(74, 74, 74, 0.12);\n    background-color: rgba(223, 216, 216, 0.9);\n    border: none;\ncolor: #fff;\nfont-weight: 900\n}\n\n.lds-ripple {\n  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);\n  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);\n  background: url('\/\/cdn.shopify.com\/s\/files\/1\/2531\/4838\/t\/2\/assets\/loading.svg');\n  background-repeat: no-repeat;\n  background-position: top;\n}\n\n.pxFormGenerator {\n  margin-bottom: 40px;\n}\n\ninput[type=date], input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select, textarea {\n  border-width: 2px;\n  border-radius: 3px;\n}\n\n\/* Update style of \"login\" button *\/\n.login .button, .lost_reset_password .button, .register .button {\n    background-color: #79a404;\n    border-color: #79a404;\n    color: #fff;\n}\n\n\/* Update style of \"login\" button:hover *\/\n.login .button:hover, .lost_reset_password .button:hover, .register .button:hover {\n    background-color: #93be1e;\n    border-color: #93be1e;\n}\n\n\n\n\/* custom hack for custom banner on hompage to stop from flicker while it resizes. This just sizes it straight out using the class id generated ... so be sure to change this in dev and on prod. *\/\n\/*\n.gl_custom_1511029970961 {\nposition: relative;\n    left: -55px;\n    box-sizing: border-box;\n    width: 1280px;\n    padding-left: 55px;\n    padding-right: 55px;\n    min-height: 90.8894vh;\nbox-sizing: border-box;\n    display: flex;\n    -webkit-flex-wrap: wrap;\n    -ms-flex-wrap: wrap;\n    flex-wrap: wrap;\nbackground-attachment: fixed;\n    background-size: cover!important;\nbackground-image: url(\/\/cdn.shopify.com\/s\/files\/1\/2531\/4838\/files\/obs-banner_7ba90953-905a-4f28-ad11-49a8e585a59d_2000x.progressive.jpg) !important;\n    background-position: center !important;\n    background-repeat: no-repeat !important;\n    background-size: cover !important;\n}\n*\/\n\n\/* Manually override \"Add to cart\" button on products *\/\n.basel-hover-quick .quick-shop-btn > a {\n    background-color: rgba(139, 139, 139, 0.75) !important;\n}\n\n\/* Manually override \"Add to cart\" button:hover on products*\/\n.basel-hover-quick .quick-shop-btn > a:hover, .basel-hover-quick .quick-shop-btn > a:focus {\n  background-color: rgba(50, 100, 76,.65) !important;\n    color: #fff !important;\n}\n\n\/* Override heading style  *\/\n.gl_custom_heading .large {\n  font-size: 1.9em;\n  font-weight: 700;\n}\n\n\/* Extract inline theme styles *\/\n.gl_custom_heading {\n  font-size: 2em;\n  color: #ffffff;\n  font-weight:900; font-\n  style:normal;\n}\n\n.gl_custom_heading.font-alt {\n  font-size: 1em;\n  color: #f7f7f7;\n  font-weight:400;\n  font-style:normal;\n}\n\n.header-sub-text {\n    font-size: 1.4em;\n}\n\n.text-shadow {\n  text-shadow: 0px 0px 15px #000000;\n}\n\n\/* End extracted inline theme styles *\/",
+    "desktop_custom_css": ".basel-header-overlap .title-size-default, .basel-header-overlap .title-size-small, .basel-header-overlap .title-shop.without-title.title-size-default, .basel-header-overlap .title-shop.without-title.title-size-small {\n padding-top: 120px;\n}\n\n\/* Override heading style  *\/\n.gl_custom_heading .large {\n    font-size: 2.4em;\n}\n\n\/* Update color of navigation headers in \"Shop\" *\/\n.basel-navigation h5 {\n  color: #613F4C;\n}\n\n.main-nav .menu > li > a {\n  font-size: 15px\n}\n\n.filters-area {\n  position: absolute;\n  z-index: 1000; \n  width: 30%;\n  right: 0px;\n  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;\n}\n\n.filter-widget li a, .sidebar-widget li a {\n  font-size: 1rem;\n}\n\n.filter-widget {\n    width: 100%;\n}\n\n.basel-hover-quick .product-title a {\n    font-size: 1.07rem;\n}\n\n.basel-buttons .yith-wcwl-add-to-wishlist a, .basel-buttons .product-compare-button>a, .basel-buttons .quick-view>a {    \n  width: 38px;\n  height: 40px;\n  line-height: 38px;\n  padding-top: 3px;\n  background: rgba(255,255,255,.7) !important;\n  border-radius: 0;\n}\n\n.basel-buttons .quick-view>a \n{\n  border-bottom-left-radius: 3px;\n}\n\n.basel-buttons .product-compare-button>a {\n  padding: 5px 0 0 0;\n  background-color: none;\n}",
+    "tablet_custom_css": "\/* Override heading style  *\/\n.gl_custom_heading .large {\n    font-size: 2em;\n}\n\n.basel-header-overlap .title-size-default, .basel-header-overlap .title-size-small, .basel-header-overlap .title-shop.without-title.title-size-default, .basel-header-overlap .title-shop.without-title.title-size-small {\n padding-bottom: 10px;\n}",
+    "landscape_custom_css": "",
+    "mobile_custom_css": ".basel-header-overlap .title-size-default, .basel-header-overlap .title-size-small, .basel-header-overlap .title-shop.without-title.title-size-default, .basel-header-overlap .title-shop.without-title.title-size-small {\n padding-bottom: 10px;\n}",
+    "custom_js": "\/\/helper function to parse query string (URL)\nfunction parse_query_string(query) {\n  var vars = query.split(\"&\");\n  var query_string = {};\n  for (var i = 0; i < vars.length; i++) {\n    var pair = vars[i].split(\"=\");\n    \/\/ If first entry with this name\n    if (typeof query_string[pair[0]] === \"undefined\") {\n      query_string[pair[0]] = decodeURIComponent(pair[1]);\n      \/\/ If second entry with this name\n    } else if (typeof query_string[pair[0]] === \"string\") {\n      var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];\n      query_string[pair[0]] = arr;\n      \/\/ If third or later entry with this name\n    } else {\n     query_string[pair[0]].push(decodeURIComponent(pair[1]));\n    }\n  }\n  return query_string;\n}\n\nvar query = window.location.search.substring(1);\nvar qs = parse_query_string(query);\n\nconst referralCandyPop = function () {\n\t\/\/ReferralCandy's \"Post-Purchase Popup\" snippet\n\t!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.defer=true;js.src=\"\/\/portal.referralcandy.com\/assets\/widgets\/refcandy-lollipop.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"refcandy-lollipop-js\");\t\n}\n\nif (qs.email) {\n  const $referralCandyLollipop = $('#refcandy-lollipop');\n\tif ($referralCandyLollipop) {\n\t\t$referralCandyLollipop\n\t\t\t.attr('data-email', qs.email)\n\t\t\t.attr('data-fname', qs.fname)\n\t\t\t.attr('data-lname', qs.lname);\n\t\treferralCandyPop();\n\t}\n}",
+    "cart_clear_enable": true,
+    "cart_notes_enable": true,
+    "show_multiple_currencies": false,
+    "supported_currencies": "EUR - EUR | USD - USD | GBP - GBP",
+    "show_language_currencies": false,
+    "language_title": "English",
+    "language_link_list": "",
+    "enable_popup": false,
+    "promo_popup_hide_mobile": true,
+    "display_newsletter_index": true,
+    "display_newsletter_product": true,
+    "display_newsletter_collection": true,
+    "display_newsletter_article": false,
+    "display_newsletter_blog": false,
+    "display_newsletter_cart": false,
+    "display_newsletter_page": false,
+    "use_newsletter_mailchimp": true,
+    "newsletter_bg": "",
+    "popup_newsletter_description": "<h1 style=\"margin-bottom: 0px; text-align: center;\"><strong>HEY YOU, SIGN UP AND<\/strong><\/h1>\n                        <h1 style=\"text-align: center;\"><strong>CONNECT TO<span style=\"color: #0f8a7e;\"> Organic Beard Supply<\/span><\/strong><\/h1>\n                        <p style=\"text-align: center; font-size: 16px;\">Be the first to learn about the latest trends<br>\n                           and get exclusive offers.\n                        <\/p>",
+    "show_popup_after": "time",
+    "time_popup_delay": "5000",
+    "scroll_popup_delay": "800",
+    "number_pages": 2,
+    "enable_cookies_popup": true,
+    "text_cookies_popup": "We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.",
+    "link_btn_infor": "shopify:\/\/pages\/privacy-policy",
+    "display_popup_cookies_index": true,
+    "display_popup_cookies_product": false,
+    "display_popup_cookies_collection": false,
+    "display_popup_cookies_article": false,
+    "display_popup_cookies_blog": false,
+    "display_popup_cookies_cart": false,
+    "display_popup_cookies_page": false,
+    "enable_suggest_products": true,
+    "collection_suggest": "aromacare",
+    "display_index": true,
+    "display_product": false,
+    "display_collection": false,
+    "display_article": false,
+    "display_blog": false,
+    "display_cart": false,
+    "display_page": false,
+    "interval_time": "6500",
+    "use_suggest": true,
+    "use_fake_location": true,
+    "fake_location": "St. Pete, FL | Bend, OR | Tampa, FL | Portland, OR | Asheville, NC | Brooklyn, NY",
+    "show_close_suggest": true,
+    "login_register_enable": false,
+    "login_tabs_enable": true,
+    "account_header_enable": true,
+    "registration_text": "Registering allows you to access your order status and history. You will only need to provide information necessary to make the purchase process faster and easier.",
+    "blog_layout": "right",
+    "blog_size_sidebar": "2",
+    "blog_design": "1",
+    "articles_per_grid_page": "12",
+    "blog_columns": "2",
+    "posts_excerpt_length": "18",
+    "enable_post_categories": "show",
+    "post_share_buttons": true,
+    "post_navigation": true,
+    "blog_portfolio": "",
+    "portfolio_styles": "hover",
+    "portfolio_full_width": false,
+    "projects_columns": "4",
+    "projects_spacing": "2",
+    "projects_per_page": "12",
+    "portfolio_filters": true,
+    "portfolio_tags_filter": "",
+    "show_related_portfolio": true,
+    "title_related_portfolio": "Related Ingredients",
+    "how_many_related_portfolio": "9",
+    "sort_faq": "",
+    "image_about_me": "shopify:\/\/shop_images\/aromacare-aroma.jpg",
+    "title_about_me": "AromaCare Aroma",
+    "sub_tetx_about_me": "<div class=\"text-center\">\n\t<p>Aroma is at the heart of AromaCare product. Each product features a unique aroma formulated through the art and science of Ayurveda, which relies on the aromatherapeutic properties of plants. Our AromCare aromas are blended using flower and plant extracts that are distilled to their very essence to utilize their natural power.<\/p>\n\t<br>\n\t<p>\n\t\t<a class=\"btn btn-color-alt btn-style-round btn-size-large\" href=\"\/collections\/aromacare\">Shop Aromacare<\/a>\n\t<\/p>\n<\/div>",
+    "signature_about_me": "",
+    "show_share_btn_about_me": false,
+    "share_type_about_me": "2",
+    "about_me_margin_top": "",
+    "about_me_margin_bottom": "-40px",
+    "about_me_padding": "",
+    "image_our_shop": "shopify:\/\/shop_images\/mission-culture.jpg",
+    "title_our_shop": "Mission & Culture",
+    "info_shop_1": "Our <strong>mission<\/strong> is to cultivate a harmonious and responsible relationship between plants, humans, and the earth.",
+    "info_shop_2": "Our <strong>culture<\/strong> is rooted in kindness, respect, and compassion. Basically, we love the plants and humans that inhabit our planet.",
+    "info_shop_3": "",
+    "info_shop_4": "",
+    "info_shop_btn_title": "Shop Collections",
+    "info_shop_btn_url": "shopify:\/\/collections",
+    "show_share_btn_our_shop": false,
+    "share_type_our_shop": "1",
+    "our_shop_bg_color": "#32644c",
+    "our_shop_margin_top": "",
+    "our_shop_margin_bottom": "-40px",
+    "our_shop_padding": "30px-0-50px-0",
+    "title_map_contact_us": "Contact Us",
+    "icon_contact_us": "map-marker",
+    "text_map_html_contact_us": "",
+    "contact_us_btn_title": "Contact Us",
+    "contact_us_btn_url": "shopify:\/\/pages\/contact-us",
+    "lat_contact_us": "",
+    "lon_contact_us": "",
+    "height_contact_us": "",
+    "style_json_contact_us": "[{\"featureType\":\"landscape\",\"stylers\":[{\"hue\":\"#FFBB00\"},{\"saturation\":43.400000000000006},{\"lightness\":37.599999999999994},{\"gamma\":1}]},{\"featureType\":\"road.highway\",\"stylers\":[{\"hue\":\"#FFC200\"},{\"saturation\":-61.8},{\"lightness\":45.599999999999994},{\"gamma\":1}]},{\"featureType\":\"road.arterial\",\"stylers\":[{\"hue\":\"#FF0300\"},{\"saturation\":-100},{\"lightness\":51.19999999999999},{\"gamma\":1}]},{\"featureType\":\"road.local\",\"stylers\":[{\"hue\":\"#FF0300\"},{\"saturation\":-100},{\"lightness\":52},{\"gamma\":1}]},{\"featureType\":\"water\",\"stylers\":[{\"hue\":\"#0078FF\"},{\"saturation\":-13.200000000000003},{\"lightness\":2.4000000000000057},{\"gamma\":1}]},{\"featureType\":\"poi\",\"stylers\":[{\"hue\":\"#00FF6A\"},{\"saturation\":-1.0989010989011234},{\"lightness\":11.200000000000017},{\"gamma\":1}]}]",
+    "show_form_contact_us": true,
+    "heading_form_contact_us": "Get In Touch",
+    "show_info_contact_us": true,
+    "heading_info_contact_us": "About OBS",
+    "text_info_contact_us": "<p>We believe in kindness, respect, and compassion. Our mission is to cultivate a harmonious and responsible relationship between plants, humans, and the earth.\n<\/p><p>\nBasically, we love the plants and humans that inhabit our planet.<\/p>",
+    "heading_cont_contact_us": "Contact Us",
+    "html_one_contact_us": "[cursor] 20512 Nels Anderson Pl. Bld 1, Box D Bend, OR 97701",
+    "html_two_contact_us": "[envelope]E-Mail: <a href=\"mailto:hello@organicbeard.supply\">hello@organicbeard.supply<\/a>",
+    "html_three_contact_us": "[rocket]$49+ Domestic Orders Ship Free",
+    "html_four_contact_us": "[action-undo]If you're not 100% satisfied, return your order within 14 days.",
+    "show_share_btn_contact_us": true,
+    "share_type_contact_us": "2",
+    "show_map_contact_us_2": false,
+    "lat_contact_us_2": "27.8957498",
+    "lon_contact_us_2": "-82.613637",
+    "height_contact_us_2": "750",
+    "style_json_contact_us_2": "[\n    {\n        \"featureType\": \"administrative\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"poi\",\n        \"stylers\": [\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road\",\n        \"elementType\": \"labels\",\n        \"stylers\": [\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"water\",\n        \"stylers\": [\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"transit\",\n        \"stylers\": [\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"landscape\",\n        \"stylers\": [\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road.highway\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road.local\",\n        \"stylers\": [\n            {\n                \"visibility\": \"on\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road.highway\",\n        \"elementType\": \"geometry\",\n        \"stylers\": [\n            {\n                \"visibility\": \"on\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"water\",\n        \"stylers\": [\n            {\n                \"color\": \"#84afa3\"\n            },\n            {\n                \"lightness\": 52\n            }\n        ]\n    },\n    {\n        \"stylers\": [\n            {\n                \"saturation\": -17\n            },\n            {\n                \"gamma\": 0.36\n            }\n        ]\n    },\n    {\n        \"featureType\": \"transit.line\",\n        \"elementType\": \"geometry\",\n        \"stylers\": [\n            {\n                \"color\": \"#3f518c\"\n            }\n        ]\n    }\n]",
+    "show_info_contact_us_2": true,
+    "bg_image_contact_us_2": "",
+    "bg_color_contact_us_2": "#271c26",
+    "heading_info_contact_us_2": "Store & barber services",
+    "svg_one_contact_us_2": "<svg version=\"1.1\" id=\"svg-5300\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n\t\t\t\t\t\t\t                                    <g>\n\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" width=\"62\" height=\"37\" d=\"M1 13 L63 13 L63 50 L1 50 Z\" style=\"stroke-dasharray: 198, 200; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M1,13L32,33L63,13\" style=\"stroke-dasharray: 74, 76; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <\/g>\n\t\t\t\t\t\t\t                                 <\/svg>",
+    "html_one_contact_us_2": "[envelope]Custom email templates<br>for your newsletter",
+    "svg_two_contact_us_2": "<svg version=\"1.1\" id=\"svg-8277\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n\t\t\t\t\t\t\t\t                                    <g>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081\n\t\t\t\t\t\t\t\t                                          c12.107,12.105,12.107,31.732,0,43.838c-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838\n\t\t\t\t\t\t\t\t                                          C22.186-2.027,41.813-2.027,53.92,10.081z\" style=\"stroke-dasharray: 195, 197; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M32,12L32,32L41,41\" style=\"stroke-dasharray: 33, 35; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M4,32L8,32\" style=\"stroke-dasharray: 4, 6; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M56,32L60,32\" style=\"stroke-dasharray: 4, 6; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M32,60L32,56\" style=\"stroke-dasharray: 4, 6; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M32,8L32,4\" style=\"stroke-dasharray: 4, 6; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t\t                                    <\/g>\n\t\t\t\t\t\t\t\t                                 <\/svg>",
+    "html_two_contact_us_2": "[clock]Strategy and in-store<br>display consulting",
+    "svg_three_contact_us_2": "<svg version=\"1.1\" id=\"svg-2872\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"10\" d=\"M1,30L63,1L23,41Z\" style=\"stroke-dasharray: 150, 152; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"10\" d=\"M34,63L63,1L23,41Z\" style=\"stroke-dasharray: 150, 152; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                 <\/svg>",
+    "html_three_contact_us_2": "[cursor]Artist designed posters<br>and store materials",
+    "svg_four_contact_us_2": "<svg version=\"1.0\" id=\"svg-9269\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M14,57A6,6 0,1,1 26,57A6,6 0,1,1 14,57\" style=\"stroke-dasharray: 38, 40; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M38,57A6,6 0,1,1 50,57A6,6 0,1,1 38,57\" style=\"stroke-dasharray: 38, 40; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M26,57L38,57\" style=\"stroke-dasharray: 12, 14; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M14,57L10,2L0,2\" style=\"stroke-dasharray: 66, 68; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M13,43L56,40L63,10L11,10\" style=\"stroke-dasharray: 126, 128; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"10\" d=\"M27.998,24L\n\t\t\t\t\t\t\t                                       35.998,16L43.998,24\" style=\"stroke-dasharray: 23, 25; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <g>\n\t\t\t\t\t\t\t                                       <path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M35.998,16L35.998,36\" style=\"stroke-dasharray: 20, 22; stroke-dashoffset: 0;\"><\/path>\n\t\t\t\t\t\t\t                                    <\/g>\n\t\t\t\t\t\t\t                                 <\/svg>",
+    "html_four_contact_us_2": "[rocket ]Personal product concierge<br>for your store purchasing",
+    "show_share_btn_contact_us_2": false,
+    "share_type_contact_us_2": "2",
+    "banner_text_color_pass": "dark",
+    "layout_pass": "2",
+    "tea_revolution_sc_pass": "",
+    "logo_pass": "",
+    "logo_max_width_pass": "100",
+    "header_pass": "MAINTENANCE",
+    "sub_header_pass": "NEW WEB-SITE COMING SOON...",
+    "sub_text_pass": "Condimentum ipsum a adipiscing hac consectetur urna commodo elit parturient a molestie ut nisl parturient convallier ullamcorper phasellus mus cubilia eget.",
+    "show_countdown_pass": true,
+    "sub_countdown_pass": "New store we be launched in:",
+    "date_pass": "2017\/12\/30",
+    "social_newsletter_pass": true,
+    "use_mailchimp_pass": true,
+    "show_use_pass": true,
+    "social_enabled_pass": true,
+    "share_type_pass": "2",
+    "section_bg_image_pass": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_google": true,
+    "share_pinterest": true,
+    "share_tumblr": true,
+    "share_email": true,
+    "social_twitter_link": "http:\/\/www.twitter.com\/organicbeardsup",
+    "social_facebook_link": "https:\/\/www.facebook.com\/organicbeardsupply",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/organicbeardsupply",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_snapchat_link": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/obs-logo-text-green.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#79a540",
+    "checkout_button_color": "#79a540",
+    "checkout_error_color": "#d9320d",
+    "size_titles_text": "26",
+    "size_title_products": "38",
+    "use_mailchimp": "true",
+    "show_comements": "on",
+    "color_secondary": "",
+    "color_regular": "#ececec",
+    "color_regular_hover": "#3e3e3e",
+    "color_shop_btn": "#000000",
+    "color_shop_btn_hover": "#333333",
+    "color_accent_btn": "",
+    "color_accent_btn_hover": "",
+    "style_top_categories": "style_top_show_all",
+    "layout": "grid",
+    "tags_enable": "true",
+    "collection_infinite_scrolling": "true",
+    "body_logo_image_white": "",
+    "top_bar_menu": "main-menu",
+    "title_our_1": "aasdassa",
+    "portfolio_style": "1",
+    "projects_pagination": "2",
+    "share_buttons": "true",
+    "display_related_post": "true",
+    "posts_excerpt": "1",
+    "color_text": "#3d4246",
+    "color_sale_text": "#145377",
+    "color_borders": "#e8e9eb",
+    "color_button": "#7796a8",
+    "color_button_text": "#fff",
+    "color_small_button": "#fff",
+    "color_small_button_text": "#3d4246",
+    "color_text_field": "#fff",
+    "color_text_field_text": "#000",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": "0.25",
+    "color_body_bg": "#fff",
+    "type_header_family": "Google_Work+Sans_600_sans",
+    "type_header_base_size": "26px",
+    "type_base_family": "Google_Work+Sans_400_sans",
+    "type_base_size": "16px",
+    "type_bold_product_titles": "false",
+    "arr_group_handle": "",
+    "hidden_variant_sold_out": "false",
+    "show_watch_products": "true",
+    "show_helper": "true",
+    "sections": {
+      "gl-product-page-description": {
+        "type": "gl-product-page-description",
+        "blocks": {
+          "1497870185984": {
+            "type": "description",
+            "settings": {
+              "title": "Details"
+            }
+          },
+          "1497870204981": {
+            "type": "additional",
+            "settings": {
+              "title": "Additional Information"
+            }
+          },
+          "1497870197904": {
+            "type": "review",
+            "settings": {
+              "title": "Reviews",
+              "use_count_reviews": true
+            }
+          },
+          "1497870213063": {
+            "type": "html",
+            "settings": {
+              "title": "Shipping & Delivery",
+              "code": "<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/2807\/4698\/files\/shipping-and-delivery_large.jpg?7865617522769997167\" class=\"alignleft\"> \n<p>We want your experience with OBS to be easy, hassle-free, and enjoyable. If, for any reason, you are not 100% satisfied with your purchase, you may return your items within 14 days of purchase for an exchange, store credit, or full refund.<\/p>\n<p class=\"eggplant\"><i class=\"fa fa-truck\" style=\"margin-right: 7px;\"><\/i><strong>FREE SHIPPING<\/strong><br>Free and fast domestic shipping for all orders over $50<\/p>\n<p class=\"eggplant\"><i class=\"fa fa-reply\" style=\"margin-right: 7px;\"><\/i><strong>RISK FREE RETURN<\/strong><br>If you're not 100% satisfied, return your order within 14 days.<\/p>\n<div class=\"clearfix\"><\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1497870185984",
+          "1497870204981",
+          "1497870197904",
+          "1497870213063"
+        ],
+        "settings": {}
+      },
+      "gl_section_sidebar_product": {
+        "type": "gl_section_sidebar_product",
+        "blocks": {
+          "1498814226759": {
+            "type": "shipping",
+            "settings": {
+              "title": "Shipping &amp; Delivery",
+              "style": "2",
+              "shipping_1": "clock-o,Save up to 20%,limited time",
+              "shipping_2": "clock-o,Save up to 20%,limited time",
+              "shipping_3": "clock-o,Save up to 20%,limited time",
+              "shipping_4": "",
+              "shipping_5": "",
+              "shipping_6": ""
+            }
+          },
+          "1498815257232": {
+            "type": "collection",
+            "settings": {
+              "title": "Sale Products",
+              "featured_product_list_collection": "",
+              "featured_product_limit_all": "3"
+            }
+          },
+          "1498816326534": {
+            "type": "html",
+            "settings": {
+              "title": "Custom HTML",
+              "code": "<h3>asdsadasd<\/h3><h3><\/h3>"
+            }
+          },
+          "1498816339430": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share infor<a href=\"\/pages\/recently-viewed-products\" title=\"recently viewed products\"><strong>mation about your brand with your customers. Describe a product, share<\/strong><\/a> announcements, or welcome customers to your store.<\/p>"
+            }
+          },
+          "1498816375250": {
+            "type": "banner",
+            "settings": {
+              "img_banner": "",
+              "link": ""
+            }
+          },
+          "1498817647779": {
+            "type": "banner",
+            "settings": {
+              "img_banner": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1498814226759",
+          "1498815257232",
+          "1498816326534",
+          "1498816339430",
+          "1498816375250",
+          "1498817647779"
+        ],
+        "settings": {}
+      },
+      "gl_section_sidebar_blog": {
+        "type": "gl_section_sidebar_blog",
+        "blocks": {
+          "1499690601971": {
+            "type": "search",
+            "settings": {
+              "title": "Search"
+            }
+          },
+          "1499701817594": {
+            "type": "categories",
+            "settings": {
+              "title": "Blogs",
+              "menu": "side-bar-blogs"
+            }
+          },
+          "1499678439559": {
+            "type": "recent",
+            "settings": {
+              "title": "Recent",
+              "featured_posts_limit_all": "5"
+            }
+          },
+          "1499690614762": {
+            "type": "collection",
+            "settings": {
+              "title": "Featured kits",
+              "featured_product_list_collection": "beard-kits",
+              "featured_product_limit_all": "2"
+            }
+          },
+          "1499702196063": {
+            "type": "instagram",
+            "settings": {
+              "title": "Instagram",
+              "username": "organicbeardsupply",
+              "view_profile": "Follow Us @organicbeardsupply"
+            }
+          }
+        },
+        "block_order": [
+          "1499690601971",
+          "1499701817594",
+          "1499678439559",
+          "1499690614762",
+          "1499702196063"
+        ],
+        "settings": {}
+      },
+      "faqs_faq": {
+        "type": "faqs_faq",
+        "blocks": {
+          "1499914746683": {
+            "type": "block",
+            "settings": {
+              "title": "envelope",
+              "text": "hello [at] organicbeard [dot] supply"
+            }
+          },
+          "1499914772965": {
+            "type": "block",
+            "settings": {
+              "title": "cursor",
+              "text": "Many things<br>\nwill and should go"
+            }
+          },
+          "1499914774323": {
+            "type": "block",
+            "settings": {
+              "title": "rocket",
+              "text": "Free shipping<br>\non orders over $50"
+            }
+          },
+          "1499914775895": {
+            "type": "block",
+            "settings": {
+              "title": "clock",
+              "text": "Some things <br>\nwhy this is great"
+            }
+          }
+        },
+        "block_order": [
+          "1499914746683",
+          "1499914772965",
+          "1499914774323",
+          "1499914775895"
+        ],
+        "settings": {
+          "title": "FAQS",
+          "section_bg_image": "",
+          "section_bg_color": "#376d53",
+          "section_margin_top": "376d53",
+          "section_margin_bottom": "",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "faqs_question": {
+        "type": "faqs_question",
+        "blocks": {
+          "1499915697028": {
+            "type": "block",
+            "settings": {
+              "title_one": "Eu dictumst cum at sed euismod condimentum?",
+              "answering_one": "Justo est cum sit fames ac convallis est non leo rhoncus feugiat scelerisque tempus nec sapien vestibulum dis parturient felis a taciti.",
+              "title_two": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_two": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus."
+            }
+          },
+          "1499915701444": {
+            "type": "block",
+            "settings": {
+              "title_one": "Vestibulum ullamcorper auctor ornare iaculis?",
+              "answering_one": "Facilisi malesuada in penatibus a torquent at a parturient suspendisse suspendisse per a augue fames commodo ullamcorper duis.",
+              "title_two": "Elit id blandit bibendum velit non vulputate?",
+              "answering_two": "Parturient lectus malesuada condimentum suspendisse urna a dis convallis adipiscing vestibulum elit amet porta quis parturient a id facilisis arcu eleifend.A purus nulla suspendisse ullamcorper orci fames."
+            }
+          }
+        },
+        "block_order": [
+          "1499915697028",
+          "1499915701444"
+        ],
+        "settings": {
+          "title": "FaQs. General Information",
+          "section_bg_image": "",
+          "section_bg_color": "#f9f9f9",
+          "section_margin_top": "",
+          "section_margin_bottom": "50px",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "faqs_tab": {
+        "type": "faqs_tab",
+        "blocks": {
+          "1499916991674": {
+            "type": "block",
+            "settings": {
+              "title": "Shopping",
+              "question_1": "I haven't received my item. What can I do?",
+              "answering_1": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_2": "Ipsum ac erat cursus rutrum parturient a a nostra?",
+              "answering_2": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_3": "Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?",
+              "answering_3": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_4": "Ad a dui a lacinia nec nec non volutpat?",
+              "answering_4": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_5": "Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?",
+              "answering_5": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_6": "Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?",
+              "answering_6": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_7": "",
+              "answering_7": "",
+              "question_8": "",
+              "answering_8": "",
+              "question_9": "",
+              "answering_9": "",
+              "question_10": "",
+              "answering_10": ""
+            }
+          },
+          "1499917060299": {
+            "type": "block",
+            "settings": {
+              "title": "Products",
+              "question_1": "I haven't received my item. What can I do?",
+              "answering_1": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_2": "Ipsum ac erat cursus rutrum parturient a a nostra?",
+              "answering_2": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_3": "Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?",
+              "answering_3": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_4": "Ad a dui a lacinia nec nec non volutpat?",
+              "answering_4": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_5": "Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?",
+              "answering_5": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_6": "Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?",
+              "answering_6": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_7": "",
+              "answering_7": "",
+              "question_8": "",
+              "answering_8": "",
+              "question_9": "",
+              "answering_9": "",
+              "question_10": "",
+              "answering_10": ""
+            }
+          },
+          "1502068081410": {
+            "type": "block",
+            "settings": {
+              "title": "Return policy",
+              "question_1": "Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?",
+              "answering_1": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_2": "Ad a dui a lacinia nec nec non volutpat?",
+              "answering_2": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_3": "Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?",
+              "answering_3": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_4": "Ipsum ac erat cursus rutrum parturient a a nostra?",
+              "answering_4": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_5": "I haven't received my item. What can I do?",
+              "answering_5": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_6": "Ad a dui a lacinia nec nec non volutpat?",
+              "answering_6": "<p>Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>\n<p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.<\/p>",
+              "question_7": "",
+              "answering_7": "",
+              "question_8": "",
+              "answering_8": "",
+              "question_9": "",
+              "answering_9": "",
+              "question_10": "",
+              "answering_10": ""
+            }
+          },
+          "1511554235115": {
+            "type": "block",
+            "settings": {
+              "title": "Barbers & salons",
+              "question_1": "Eu dictumst cum at sed euismod condimentum?",
+              "answering_1": "Justo est cum sit fames ac convallis est non leo rhoncus feugiat scelerisque tempus nec sapien vestibulum dis parturient felis a taciti.",
+              "question_2": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_2": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus.",
+              "question_3": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_3": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus.",
+              "question_4": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_4": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus.",
+              "question_5": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_5": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus.",
+              "question_6": "Odio molestie hac eros consectetur scelerisque?",
+              "answering_6": "Eu tincidunt magnis erat malesuada vulputate parturient nisl a nisl in a facilisis porttitor ullamcorper nec a a lectus eget non leo ad ad parturient pretium magna.A ligula dis vestibulum dapibus.",
+              "question_7": "",
+              "answering_7": "",
+              "question_8": "",
+              "answering_8": "",
+              "question_9": "",
+              "answering_9": "",
+              "question_10": "",
+              "answering_10": ""
+            }
+          }
+        },
+        "block_order": [
+          "1499916991674",
+          "1499917060299",
+          "1502068081410",
+          "1511554235115"
+        ],
+        "settings": {
+          "use_form_question": true,
+          "hidden_form_name": false,
+          "title": "Ask a Question",
+          "sub_text": "Sed primis eu conubia erat ut nam vitae a habitant dui adipiscing a dignissim eu a ad venenatis.",
+          "name": "Your Name",
+          "email": "Your Email (required)",
+          "message": "Your Message",
+          "submit": "Ask A Question",
+          "section_margin_top": "30px",
+          "section_margin_bottom": "30px",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "faqs_counter": {
+        "type": "faqs_counter",
+        "blocks": {
+          "1499931111239": {
+            "type": "basel-counter",
+            "settings": {
+              "icon": "shop",
+              "value": "3200",
+              "label": "UNIQUE PRODUCTS"
+            }
+          },
+          "1499931114678": {
+            "type": "basel-counter",
+            "settings": {
+              "icon": "heart",
+              "value": "300",
+              "label": "HAPPY CUSTOMERS"
+            }
+          },
+          "1499931121410": {
+            "type": "basel-counter",
+            "settings": {
+              "icon": "tag",
+              "value": "88",
+              "label": "BADASS BRANDS"
+            }
+          },
+          "1499931124082": {
+            "type": "basel-counter",
+            "settings": {
+              "icon": "bubble",
+              "value": "5000",
+              "label": "ANSWERED QUESTIONS"
+            }
+          }
+        },
+        "block_order": [
+          "1499931111239",
+          "1499931114678",
+          "1499931121410",
+          "1499931124082"
+        ],
+        "settings": {
+          "section_bg_image": "",
+          "section_bg_color": "#376c6d",
+          "section_margin_top": "",
+          "section_margin_bottom": "-40px",
+          "section_padding_top": "40px",
+          "section_padding_right": "",
+          "section_padding_bottom": "60px",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "gl_mega_menu": {
+        "type": "gl_mega_menu",
+        "blocks": {
+          "1517437475601": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "Home",
+              "icon": "",
+              "button_link": "\/",
+              "label": "",
+              "color": "#ffffff"
+            }
+          },
+          "1501750539710": {
+            "type": "sub_mega_product",
+            "settings": {
+              "title": "Shop",
+              "icon": "pagelines",
+              "button_link": "shopify:\/\/collections",
+              "label": "sale",
+              "color": "#d9320d",
+              "show_img": false,
+              "banner": "",
+              "shipping_icon_1": "truck",
+              "shipping_heading_1": "Free Shipping",
+              "shipping_subtext_1": "Free and fast domestic shipping for all orders over $50",
+              "shipping_icon_2": "scissors",
+              "shipping_heading_2": "Barber Approved",
+              "shipping_subtext_2": "Hand curated collections by world class experts",
+              "shipping_icon_3": "pagelines",
+              "shipping_heading_3": "Plant Based Promise",
+              "shipping_subtext_3": "Each and every ingredient is plant based, always.",
+              "shipping_icon_4": "reply",
+              "shipping_heading_4": "Risk Free Returns",
+              "shipping_subtext_4": "If you're not 100% satisfied, return your order within 14 days.",
+              "conditions_setting": "2",
+              "products_hover": "quick",
+              "sale_countdown": true,
+              "countdown_style": "dark",
+              "id_collection": "",
+              "many_products": "4",
+              "product_id_1": "aromacare-the-really-useful-beard-care-kit",
+              "product_id_2": "aromacare-cardamom-and-cedarwood-beard-soap",
+              "product_id_3": "aromacare-petitgrain-and-sandalwood-beard-oil",
+              "product_id_4": "aromacare-the-really-really-useful-beard-care-kit",
+              "product_id_5": ""
+            }
+          },
+          "1510635347005": {
+            "type": "mega_sub",
+            "settings": {
+              "title": "Living",
+              "icon": "hand-peace-o",
+              "button_link": "shopify:\/\/pages\/mission-culture",
+              "label": "",
+              "color": "#ffffff",
+              "show_img": true,
+              "banner": "shopify:\/\/shop_images\/living.jpg",
+              "full_width": false,
+              "menu_width": "720"
+            }
+          },
+          "1501751981346": {
+            "type": "mega_sub",
+            "settings": {
+              "title": "Locations",
+              "icon": "map-signs",
+              "button_link": "shopify:\/\/pages\/store-locator",
+              "label": "",
+              "color": "#ffffff",
+              "show_img": true,
+              "banner": "shopify:\/\/shop_images\/locations.jpg",
+              "full_width": false,
+              "menu_width": "545"
+            }
+          }
+        },
+        "block_order": [
+          "1517437475601",
+          "1501750539710",
+          "1510635347005",
+          "1501751981346"
+        ],
+        "settings": {
+          "active_sub_menu": "hover",
+          "label_1": "new",
+          "color_1": "#4c7e66",
+          "label_2": "sale",
+          "color_2": "#d9320d",
+          "label_3": "hot",
+          "color_3": "#fcc419",
+          "label_4": "",
+          "color_4": "rgba(0,0,0,0)",
+          "label_5": "",
+          "color_5": ""
+        }
+      },
+      "gl_mobile_menu": {
+        "type": "gl_mobile_menu",
+        "settings": {
+          "menu": "main-menu"
+        }
+      },
+      "gl_search-by-category": {
+        "type": "gl_search-by-category",
+        "blocks": {
+          "1501063628239": {
+            "type": "collection_featured",
+            "settings": {
+              "collection_id": ""
+            }
+          },
+          "1501063632717": {
+            "type": "collection_featured",
+            "settings": {
+              "collection_id": ""
+            }
+          },
+          "1501063636724": {
+            "type": "collection_featured",
+            "settings": {
+              "collection_id": ""
+            }
+          },
+          "1501063643140": {
+            "type": "collection_featured",
+            "settings": {
+              "collection_id": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501063628239",
+          "1501063632717",
+          "1501063636724",
+          "1501063643140"
+        ],
+        "settings": {
+          "top_categories": "2"
+        }
+      },
+      "gl_mega-navigation": {
+        "type": "gl_mega-navigation",
+        "blocks": {
+          "1501116410889": {
+            "type": "dropdown",
+            "settings": {
+              "title": "shop",
+              "icon": "",
+              "button_link": "",
+              "label": "",
+              "color": "#ffffff"
+            }
+          },
+          "1501116421296": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "Home",
+              "icon": "",
+              "button_link": "",
+              "label": "",
+              "color": "#ffffff"
+            }
+          },
+          "1501117830239": {
+            "type": "mega_sub",
+            "settings": {
+              "title": "shop",
+              "icon": "",
+              "button_link": "",
+              "label": "",
+              "color": "#ffffff",
+              "show_img": false,
+              "banner": "",
+              "full_width": false,
+              "menu_width": "825"
+            }
+          },
+          "1501120761632": {
+            "type": "mega_sub",
+            "settings": {
+              "title": "all menu",
+              "icon": "user",
+              "button_link": "\/account",
+              "label": "all",
+              "color": "#c98484",
+              "show_img": true,
+              "banner": "",
+              "full_width": true,
+              "menu_width": "826"
+            }
+          }
+        },
+        "block_order": [
+          "1501116410889",
+          "1501116421296",
+          "1501117830239",
+          "1501120761632"
+        ],
+        "settings": {
+          "active_sub_menu": "click",
+          "label_1": "",
+          "color_1": "",
+          "label_2": "",
+          "color_2": "",
+          "label_3": "",
+          "color_3": "",
+          "label_4": "",
+          "color_4": "",
+          "label_5": "",
+          "color_5": ""
+        }
+      },
+      "gl_top_bar_menu": {
+        "type": "gl_top_bar_menu",
+        "blocks": {
+          "1501749498671": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "Support",
+              "icon": "",
+              "button_link": "shopify:\/\/pages\/contact-us"
+            }
+          },
+          "1501123128286": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "Account",
+              "icon": "user",
+              "button_link": "\/account"
+            }
+          },
+          "1501123166194": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "Cart",
+              "icon": "shopping-cart",
+              "button_link": "\/cart"
+            }
+          },
+          "1517268445649": {
+            "type": "menu_item_no_children",
+            "settings": {
+              "title": "My Account",
+              "icon": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501749498671",
+          "1501123128286",
+          "1501123166194",
+          "1517268445649"
+        ],
+        "settings": {}
+      },
+      "gl_footer": {
+        "type": "gl_footer",
+        "blocks": {
+          "1501140417063": {
+            "type": "logo",
+            "settings": {
+              "footer_logo_image": "",
+              "logo_max_width": "55",
+              "social_enabled": true,
+              "share_type": "1",
+              "logo_custom_html": ""
+            }
+          },
+          "1501138697288": {
+            "type": "menu",
+            "settings": {
+              "title": "Collections",
+              "menu": "footer-obs-collections"
+            }
+          },
+          "1510969793712": {
+            "type": "menu",
+            "settings": {
+              "title": "Shop",
+              "menu": "footer-shop"
+            }
+          },
+          "1510970496699": {
+            "type": "menu",
+            "settings": {
+              "title": "Living",
+              "menu": "footer-living"
+            }
+          },
+          "1510970740477": {
+            "type": "menu",
+            "settings": {
+              "title": "Helpful Links",
+              "menu": "footer-helpful-links"
+            }
+          },
+          "1501148151649": {
+            "type": "html",
+            "settings": {
+              "title": "About OBS",
+              "html": "<p>OBS offers a line of organic, plant based, nonGMO apothecary products for bearded men. Rooted in Ayurveda, we hand select and combine ingredients proven to help you and your beard feel great all day, every day. We also love the plants and humans that inhabit our plant.<\/p>\n<div style=\"line-height: 2;\">\n<i class=\"fa fa-heart-o\" style=\"width: 15px; text-align: center; margin-right: 4px; color: #c01900;\"><\/i> Handcrafted by humans in the USA<br>\n<i class=\"fa fa-envelope-o\" style=\"width: 15px; text-align: center; margin-right: 4px; color: #e3ab00;\"><\/i> <a href=\"mailto:hello@organicbeard.supply\">hello@organicbeard.supply<\/a>\n<\/div>",
+              "enabled_payment_types": false,
+              "footer_payment_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501140417063",
+          "1501138697288",
+          "1510969793712",
+          "1510970496699",
+          "1510970740477",
+          "1501148151649"
+        ],
+        "settings": {}
+      },
+      "gl_filter_area": {
+        "type": "gl_filter_area",
+        "blocks": {
+          "1501350109289": {
+            "type": "sortby",
+            "settings": {
+              "title": "Sort by"
+            }
+          },
+          "1501752920204": {
+            "type": "price",
+            "settings": {
+              "title": "Price filter",
+              "shop_by_tags_price": "£0.00 - £150.00, £150.00 - £300.00, £300.00 - £450.00, £450.00 +",
+              "use_auto_filter_tag": false,
+              "key_2": "price",
+              "key": ""
+            }
+          },
+          "1501347494048": {
+            "type": "color",
+            "settings": {
+              "title": "Filter by color",
+              "shop_by_tags_color": "Blue, White, Red, Black, Brown, yellow, green",
+              "use_tag_countdown": false,
+              "use_auto_filter_tag": false,
+              "key_2": "color",
+              "key": ""
+            }
+          },
+          "1501752967968": {
+            "type": "size",
+            "settings": {
+              "title": "Filter by size",
+              "shop_by_tags_size": "L, M, XL, S, XS",
+              "use_tag_countdown": false,
+              "use_auto_filter_tag": false,
+              "key_2": "size",
+              "key": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501350109289",
+          "1501752920204",
+          "1501347494048",
+          "1501752967968"
+        ],
+        "settings": {}
+      },
+      "gl_section_sidebar_shop": {
+        "type": "gl_section_sidebar_shop",
+        "blocks": {
+          "1501492296062": {
+            "type": "category",
+            "settings": {
+              "title": "Collections",
+              "top_categories_source": "top_categories_link_list",
+              "top_categories_link_list": "collections-link-list"
+            }
+          },
+          "1501493451817": {
+            "type": "color",
+            "settings": {
+              "title": "Filter by color",
+              "shop_by_tags_color": "Blue, White, Red, Black, Brown, yellow, green, Gray",
+              "use_tag_countdown": false,
+              "use_auto_filter_tag": false,
+              "key_2": "color",
+              "key": "primary color"
+            }
+          },
+          "1511648485764": {
+            "type": "size",
+            "settings": {
+              "title": "Filter by size",
+              "shop_by_tags_size": "L, M, XL, S, XS, Full Size (1oz), Half Size (.5oz)",
+              "use_tag_countdown": false,
+              "use_auto_filter_tag": false,
+              "key_2": "size",
+              "key": ""
+            }
+          },
+          "1501493484621": {
+            "type": "tag",
+            "settings": {
+              "title": "Product Tags",
+              "shop_by_tags": "Aromacare, beard, oil, organic"
+            }
+          },
+          "1501487434097": {
+            "type": "collection",
+            "settings": {
+              "title": "Recommended Products",
+              "featured_product_list_collection": "",
+              "featured_product_limit_all": "3"
+            }
+          },
+          "1501487494886": {
+            "type": "shipping",
+            "settings": {
+              "title": "Shipping & Delivery",
+              "style": "2",
+              "shipping_1": "truck, FREE SHIPPING, Free and fast domestic shipping for all orders over $50",
+              "shipping_2": "scissors,BARBER APPROVED,\nHand curated collections by world class experts.",
+              "shipping_3": "pagelines,PLANT BASED PROMISE, Each and every ingredient is plant based, always.",
+              "shipping_4": "reply,RISK FREE RETURNS, If you're not 100% satisfied, return your order within 14 days.",
+              "shipping_5": "",
+              "shipping_6": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501492296062",
+          "1501493451817",
+          "1511648485764",
+          "1501493484621",
+          "1501487434097",
+          "1501487494886"
+        ],
+        "settings": {}
+      },
+      "gl_custom_color": {
+        "type": "gl_custom_color",
+        "settings": {}
+      },
+      "promo_banner_collection": {
+        "type": "promo_banner_collection",
+        "blocks": {
+          "1501643382367": {
+            "type": "item",
+            "settings": {
+              "title": "AromaCare",
+              "collection_id": "aromacare",
+              "image": "shopify:\/\/shop_images\/aromacare_a3f04160-c576-47dd-8a65-682a2d258f52.jpg",
+              "banner_content": "<div class=\"visible-xs\">\n<h3 style=\"margin-bottom: 0;\">Introducing AromaCare<\/h3>\n<p style=\"font-size: .9em;\">Featuring unique aromas rooted in Ayurveda.<\/p>\n<\/div>\n<div class=\"hidden-xs\">\n<h1 class=\"hidden-lg\" style=\"margin-bottom: 0;\">Introducing AromaCare<\/h1>\n<h1 class=\"visible-lg\">Introducing AromaCare<\/h1>\n<p>Each AromaCare product features a unique aroma formulated through the art and science of Ayurveda<span class=\"hidden-lg hidden-md\">.<\/span><span class=\"hidden-sm\">, which relies on the aromatherapeutic properties of plants to rejuvenate the body and mind.<\/span><\/p>\n<\/div>",
+              "banner_btn_title": "",
+              "banner_link": "",
+              "button_style_color": "btn-style-bordered",
+              "banner_alignment": "left",
+              "banner_vertical_alignment": "bottom",
+              "banner_effect": "default",
+              "banner_content_style": "2",
+              "banner_color": "light",
+              "enable_increase": true
+            }
+          }
+        },
+        "block_order": [
+          "1501643382367"
+        ],
+        "settings": {}
+      },
+      "product_360_section": {
+        "type": "product_360_section",
+        "blocks": {
+          "1501646774727": {
+            "type": "item_image",
+            "settings": {
+              "title": "Yola Merlot Wine",
+              "product_id": "",
+              "image_1": "",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "image_5": "",
+              "image_6": "",
+              "image_7": "",
+              "image_8": "",
+              "image_9": "",
+              "image_10": "",
+              "image_11": "",
+              "image_12": "",
+              "image_13": "",
+              "image_14": "",
+              "image_15": "",
+              "image_16": "",
+              "image_17": "",
+              "image_18": "",
+              "image_19": "",
+              "image_20": "",
+              "image_21": "",
+              "image_22": "",
+              "image_23": "",
+              "image_24": "",
+              "image_25": ""
+            }
+          },
+          "1501810369998": {
+            "type": "item_image",
+            "settings": {
+              "title": "Bitish Hunter Limited  Edition",
+              "product_id": "",
+              "image_1": "",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "image_5": "",
+              "image_6": "",
+              "image_7": "",
+              "image_8": "",
+              "image_9": "",
+              "image_10": "",
+              "image_11": "",
+              "image_12": "",
+              "image_13": "",
+              "image_14": "",
+              "image_15": "",
+              "image_16": "",
+              "image_17": "",
+              "image_18": "",
+              "image_19": "",
+              "image_20": "",
+              "image_21": "",
+              "image_22": "",
+              "image_23": "",
+              "image_24": "",
+              "image_25": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501646774727",
+          "1501810369998"
+        ],
+        "settings": {}
+      },
+      "1502094723230": {
+        "type": "gl_section_title",
+        "settings": {
+          "row_stretch": "default",
+          "grid_width": "12",
+          "title": "<strong>Premium Plant Based Beard Care<\/strong>",
+          "sub_title": "",
+          "text_after_title": "Shop by Collection",
+          "title_style": "default",
+          "title_color": "default",
+          "title_size": "large",
+          "subtitle_font": "default",
+          "title_align": "center",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "5rem",
+          "section_margin_bottom": "",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1502095005007": {
+        "type": "gl_section_categories",
+        "blocks": {
+          "1510972100717": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "obs-products",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1502095005007-0": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "aromacare",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1510972130148": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "lifestyle",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1502095089387": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "beard-kits",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1502095005007-1": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "beard-balm",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1502095005007-3": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "beard-oil",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1502095005007-2": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "beard-soap",
+              "width": "3",
+              "image_size": ""
+            }
+          },
+          "1511112252492": {
+            "type": "masonry_image",
+            "settings": {
+              "image": "",
+              "id_collection": "beard-combs",
+              "width": "3",
+              "image_size": ""
+            }
+          }
+        },
+        "block_order": [
+          "1510972100717",
+          "1502095005007-0",
+          "1510972130148",
+          "1502095089387",
+          "1502095005007-1",
+          "1502095005007-3",
+          "1502095005007-2",
+          "1511112252492"
+        ],
+        "settings": {
+          "row_stretch": "default",
+          "categories_layout": "masonry_first",
+          "categories_design": "default",
+          "space_categories": "20",
+          "silder_speed": "5000",
+          "silder_per_view": "3",
+          "hide_pagination": false,
+          "hide_button": false,
+          "slider_loop": false,
+          "autoplay": false,
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "1rem",
+          "section_margin_bottom": "7rem",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1502095793823": {
+        "type": "gl_section_image_banner_with_text",
+        "blocks": {
+          "1502095832721": {
+            "type": "custom_html",
+            "settings": {
+              "banner_width": "12",
+              "custom_html": "<p><a style=\"font-size: 23px; color: white;\">#plantbased #beardcare<\/a><\/p>\n   <h2 class=\"font-title\" style=\"font-size: 58px; margin: -15px 0 10px; line-height: 1.2;\">What <span class=\"carrot\" style=\"border-bottom: 4px dashed;\">badass<\/span> barbers<br>\n      <span class=\"vc_hidden-xs\">recommend.<\/span>\n   <\/h2>\n   <p style=\"text-align: center; font-size: 15px; color: rgba(255,255,255,1); margin-bottom: 25px;\">Give yourself some love with products that badass barbers recommend to their guests on a daily basis.\n   <\/p>\n   <p><a class=\"btn btn-color-alt btn-style-round btn-size-large\" href=\"\/collections\">Shop All Collections<\/a><\/p>",
+              "text_color": "light",
+              "text_alignment": "center",
+              "block_margin_top": "",
+              "block_margin_bottom": "",
+              "block_padding": ""
+            }
+          }
+        },
+        "block_order": [
+          "1502095832721"
+        ],
+        "settings": {
+          "row_stretch": "stretch_row_content_no_spaces",
+          "full_height": false,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "default",
+          "use_video": true,
+          "video_url": "https:\/\/youtu.be\/RXvY3lOj_tU",
+          "section_bg_image": "",
+          "section_bg_color": "#0a0a0a",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "3rem",
+          "section_padding_top": "3rem",
+          "section_padding_right": "",
+          "section_padding_bottom": "4rem",
+          "section_padding_left": "",
+          "hidden_section": false,
+          "use_parallax": false
+        }
+      },
+      "1502096057389": {
+        "type": "gl_section_title",
+        "settings": {
+          "row_stretch": "default",
+          "grid_width": "12",
+          "title": "<strong>Best Sellers<\/strong>",
+          "sub_title": "",
+          "text_after_title": "",
+          "title_style": "default",
+          "title_color": "default",
+          "title_size": "large",
+          "subtitle_font": "default",
+          "title_align": "center",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "7rem",
+          "section_margin_bottom": "",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1502096161885": {
+        "type": "gl_section_product_gird",
+        "settings": {
+          "row_stretch": "default",
+          "home_featured_products": "best-sellers",
+          "paginate_index": "4",
+          "use_pagination": "none",
+          "grid_columns": "4",
+          "products_hover": "quick",
+          "shop_image_size": "",
+          "sale_countdown": false,
+          "loop_sale_countdown": false,
+          "countdown_style": "dark",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "2rem",
+          "section_margin_bottom": "3rem",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1510246187771": {
+        "type": "gl_section_store_information",
+        "blocks": {
+          "1510246187771-0": {
+            "type": "image",
+            "settings": {
+              "disabled_logo": true,
+              "image": "",
+              "title": "Premium-Responsible-Apothecary",
+              "richtext": "<p><\/p>\n<p><strong>OBS<\/strong>&nbsp;is a line of organic, plant based, nonGMO apothecary products for bearded men.<\/p>\n<p><\/p>\n<p>Rooted&nbsp;in&nbsp;Ayurveda, we hand select and combine ingredients proven to help you and your beard feel&nbsp;great all day, every day.<\/p>",
+              "button_label": "Shop AromaCare",
+              "button_link": "shopify:\/\/collections\/aromacare",
+              "button_color": "alt",
+              "button_style": "round",
+              "button_size": "large"
+            }
+          },
+          "1510246187771-1": {
+            "type": "text",
+            "settings": {
+              "title": "About OBS",
+              "icon": "heart-o",
+              "richtext": "<p>We believe in kindness, respect, and compassion. Our mission is to&nbsp;cultivate&nbsp;a harmonious and responsible&nbsp;relationship between plants, humans, and the earth.<\/p>\n<p><\/p>\n<p>Basically, we love&nbsp;the plants and humans that inhabit&nbsp;our&nbsp;planet.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "button_color": "white",
+              "button_style": "bordered",
+              "button_size": "default"
+            }
+          }
+        },
+        "block_order": [
+          "1510246187771-0",
+          "1510246187771-1"
+        ],
+        "settings": {
+          "row_stretch": "stretch_row",
+          "full_height": false,
+          "columns_position": "middle",
+          "use_video": false,
+          "video_url": "",
+          "section_bg_image": "shopify:\/\/shop_images\/badass-barbers-apoth-market.jpg",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "",
+          "section_padding_top": "3rem",
+          "section_padding_right": "1.5rem",
+          "section_padding_bottom": "5rem",
+          "section_padding_left": "1.5rem",
+          "hidden_section": false,
+          "use_parallax": false
+        }
+      },
+      "1511029970961": {
+        "type": "gl_parallax",
+        "disabled": true,
+        "settings": {
+          "row_stretch": "stretch_row_content",
+          "full_height": true,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "middle",
+          "text_alignment": "center",
+          "title": "<span style=\"line-height: 1.8em;\"> \t \t \t<span style=\"font-weight: 400;display: block;\" class=\"text-uppercase\"> \t\tIntroducing \t<\/span> \t<span class=\"large\"> \t\tAromaCare \t<\/span> \t<br> \t<span style=\"font-weight: 300;font-size: .8em;\" class=\"text-uppercase\"> \t\tStronger, Fuller Beard \t<\/span> <\/span>",
+          "sub_title": "<span class=\"text-lowercase text-white header-sub-text\">\n\t<br>\n\t<span>\n\t\tprevent itch, reduce irritation\n\t\t<br>\n\t\t<span style=\"font-weight: 300; font-size: .8em;\">thicken beard | moisturize skin | plant based<\/span>\n\t<\/span>\n<\/span>",
+          "text_after_title": "",
+          "button_label": "Shop AromaCare",
+          "button_link": "shopify:\/\/collections\/aromacare",
+          "button_style": "gradient",
+          "gradient_color": "#93be1e",
+          "gradient_color_two": "#608b00",
+          "btn_color": "#ffffff",
+          "button_shape": "rounded",
+          "section_bg_image": "shopify:\/\/shop_images\/introducing-aromacare.jpg",
+          "section_bg_color": "#613f4c",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false,
+          "use_parallax": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1511116878982": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "1511116878982"
+        ],
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 4
+        }
+      },
+      "1517437806521": {
+        "type": "gl_instagram_width_testimonial",
+        "disabled": true,
+        "blocks": {
+          "1517437806521-1": {
+            "type": "quote",
+            "settings": {
+              "author": "Jai Perry",
+              "user_title": "Owner, Central Oak Barber Co.",
+              "avatar": "shopify:\/\/shop_images\/jai-perry.jpg",
+              "quote": "<p>I'm always testing new products, on myself and in my shop. These are some of the best I've come across plus my guests love them.<\/p>"
+            }
+          },
+          "1517437806521-0": {
+            "type": "quote",
+            "settings": {
+              "author": "Vlad Cruz",
+              "user_title": "",
+              "avatar": "shopify:\/\/shop_images\/vlad-cruz.jpg",
+              "quote": "<p>These products are my absolute favorite. I can never have enough. They're worth rubbing a little extra under the nose - I just want to smell it all day.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1517437806521-1",
+          "1517437806521-0"
+        ],
+        "settings": {
+          "row_stretch": "default",
+          "full_height": false,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "default",
+          "block_width_tes": "6",
+          "title_tes": "",
+          "title_style": "default",
+          "layout": "slider",
+          "style": "boxed",
+          "align": "center",
+          "columns": "1",
+          "silder_speed_tes": "6500",
+          "silder_per_view_tes": "1",
+          "hide_pagination_tes": false,
+          "hide_button_tes": true,
+          "slider_loop_tes": true,
+          "autoplay_tes": true,
+          "block_width": "6",
+          "show_title": false,
+          "title": "[social-instagram]FOLLOW @ORGANICBEARDSUPPLY",
+          "style_title": "2",
+          "bg_title": "",
+          "username": "organicbeardsupply",
+          "limit": "6",
+          "photo_size": "s200x200",
+          "open_link": "_blank",
+          "photo_design": "default",
+          "photo_per_row": "3",
+          "spaces_section": true,
+          "rounded_section": false,
+          "silder_speed": "5000",
+          "hide_pagination": false,
+          "hide_button": false,
+          "slider_loop": false,
+          "autoplay": false,
+          "show_ins_text": false,
+          "overlay_title": "INSTAGRAM",
+          "subtext": "Posuere eget ut sed consectetur litora lobortis cras",
+          "button_label": "",
+          "button_link": "",
+          "button_color": "white",
+          "button_style": "bordered",
+          "button_size": "default",
+          "section_bg_color": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "",
+          "section_padding_top": "2em",
+          "section_padding_right": "",
+          "section_padding_bottom": "8em",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1517442234989": {
+        "type": "gl_newsletter",
+        "blocks": {
+          "1517442234989-0": {
+            "type": "1",
+            "settings": {
+              "title": "",
+              "subtitle": "Stay hip to the jive",
+              "subtext": "We love sharing beard care tips with our friends. We also like letting our friends know ahead of time about new product launches and updates. Want to be friends?"
+            }
+          }
+        },
+        "block_order": [
+          "1517442234989-0"
+        ],
+        "settings": {
+          "use_mailchimp": true,
+          "row_stretch": "stretch_row_content",
+          "full_height": false,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "default",
+          "use_video": false,
+          "video_url": "",
+          "section_bg_image": "",
+          "bg_img_center": false,
+          "bg_size_cover": false,
+          "section_bg_color": "#613f4c",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "-44px",
+          "section_padding_top": "4rem",
+          "section_padding_right": "",
+          "section_padding_bottom": "4rem",
+          "section_padding_left": "",
+          "hidden_section": false,
+          "use_parallax": false,
+          "use_gradient": false,
+          "gradient": "left",
+          "color_gradient_one": "",
+          "color_opacity_one": "1",
+          "color_percent_one": "1",
+          "color_gradient_two": "",
+          "color_opacity_two": "1",
+          "color_percent_two": "33",
+          "use_color_gradient_three": false,
+          "color_gradient_three": "",
+          "color_opacity_three": "1",
+          "color_percent_three": "66",
+          "use_color_gradient_four": false,
+          "color_gradient_four": "",
+          "color_opacity_four": "1",
+          "color_percent_four": "100"
+        }
+      },
+      "1517442954749": {
+        "type": "gl_section_title",
+        "settings": {
+          "row_stretch": "default",
+          "grid_width": "12",
+          "title": "<strong>What People Are Saying<\/strong>",
+          "sub_title": "",
+          "text_after_title": "",
+          "title_style": "default",
+          "title_color": "default",
+          "title_size": "large",
+          "subtitle_font": "default",
+          "title_align": "center",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "6rem",
+          "section_margin_bottom": "",
+          "section_padding_top": "",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false
+        }
+      },
+      "1518716500655": {
+        "type": "gl_testimonials",
+        "blocks": {
+          "1518716500655-0": {
+            "type": "quote",
+            "settings": {
+              "author": "Jai Perry",
+              "user_title": "Owner, Central Oak Barber Co.",
+              "avatar": "shopify:\/\/shop_images\/jai-perry.jpg",
+              "quote": "<p>I'm always testing new products, on myself and in my shop. These are some of the best I've come across plus my guests love them.<\/p>"
+            }
+          },
+          "1518716500655-1": {
+            "type": "quote",
+            "settings": {
+              "author": "Vlad Cruz",
+              "user_title": "St. Pete, Florida",
+              "avatar": "shopify:\/\/shop_images\/vlad-cruz.jpg",
+              "quote": "<p>AromaCare is my absolute favorite, I can't get enough. These products are worth rubbing a little extra under the nose - I just want to smell it all day.<\/p>"
+            }
+          },
+          "1518716500655-2": {
+            "type": "quote",
+            "settings": {
+              "author": "Aidan Harvey",
+              "user_title": "St. Pete, Florida",
+              "avatar": "shopify:\/\/shop_images\/image8.jpeg",
+              "quote": "<p>Totally love Cardamom and Cedarwood from the AromaCare collection. Smells great, doesn’t leave me feeling greasy, and really works to keep my beard soft and manageable.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1518716500655-0",
+          "1518716500655-1",
+          "1518716500655-2"
+        ],
+        "settings": {
+          "row_stretch": "default",
+          "full_height": false,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "default",
+          "width": "12",
+          "text_color": "dark",
+          "title": "",
+          "title_style": "default",
+          "layout": "slider",
+          "style": "standard",
+          "align": "center",
+          "columns": "1",
+          "silder_speed": "5000",
+          "silder_per_view": "3",
+          "hide_pagination": false,
+          "hide_button": false,
+          "slider_loop": false,
+          "autoplay": false,
+          "section_bg_image": "",
+          "section_bg_color": "",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "",
+          "section_padding_top": "2em",
+          "section_padding_right": "",
+          "section_padding_bottom": "8em",
+          "section_padding_left": "",
+          "hidden_section": false,
+          "use_parallax": false
+        }
+      },
+      "1521215896677": {
+        "type": "gl_parallax",
+        "settings": {
+          "row_stretch": "stretch_row_content_no_spaces",
+          "full_height": true,
+          "columns_position": "middle",
+          "equal_height": false,
+          "content_position": "middle",
+          "text_alignment": "center",
+          "title": "<span style=\"line-height: 1.8em;\"><span class=\"large\">Give yourself some space.<\/span><\/span>",
+          "sub_title": "<span class=\"text-white text-shadow header-sub-text\" style=\"font-size: 1.6em;\">\n Auto-ship <a href=\"\/collections\/obs-products\" style=\"text-decoration: underline;\"><strong>plant based beard care<\/strong><\/a> directly to your door on a schedule that works for you.\n<\/span>",
+          "text_after_title": "",
+          "button_label": "Shop OBS Products",
+          "button_link": "shopify:\/\/collections\/obs-products",
+          "button_style": "gradient",
+          "gradient_color": "#4e94ef",
+          "gradient_color_two": "#1b61bc",
+          "btn_color": "#fff",
+          "button_shape": "rounded",
+          "section_bg_image": "shopify:\/\/shop_images\/give-yourself-some-space.jpg",
+          "section_bg_color": "#608b00",
+          "section_border_color": "",
+          "section_border_style": "solid",
+          "section_border": "",
+          "section_margin_top": "",
+          "section_margin_bottom": "",
+          "section_padding_top": "40px",
+          "section_padding_right": "",
+          "section_padding_bottom": "",
+          "section_padding_left": "",
+          "hidden_section": false,
+          "use_parallax": true
+        }
+      }
+    },
+    "content_for_index": [
+      "1521215896677",
+      "1511029970961",
+      "1502096057389",
+      "1502096161885",
+      "1502094723230",
+      "1502095005007",
+      "1502095793823",
+      "1517442954749",
+      "1517437806521",
+      "1518716500655",
+      "1510246187771",
+      "1517442234989"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#788188",
+      "color_sale_text": "#7796A8",
+      "color_borders": "#e8e9eb",
+      "color_button": "#7796A8",
+      "color_button_text": "#fff",
+      "color_small_button": "#fff",
+      "color_small_button_text": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": "0.25",
+      "color_body_bg": "#fff",
+      "type_header_family": "Google_Work+Sans_600_sans",
+      "type_header_base_size": "26px",
+      "type_base_family": "Google_Work+Sans_400_sans",
+      "type_base_size": "16px",
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "content_for_index": []
+    }
+  }
+}

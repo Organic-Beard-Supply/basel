@@ -1,0 +1,132 @@
+{%- capture basel_style -%}
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+{{settings.global_custom_css }}
+
+/*---------------- Custom CSS for desktop -------------------*/
+@media (min-width: 992px) {
+{{settings.desktop_custom_css }}
+}
+
+/*---------------- Custom CSS for tablet -------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+{{settings.tablet_custom_css }}
+}
+
+/*---------------- Custom CSS for mobile landscape -------------------*/
+@media (min-width: 481px) and (max-width: 767px) {
+{{settings.landscape_custom_css }}
+}
+
+/*---------------- Custom CSS for mobile -------------------*/
+@media (max-width: 480px){
+{{settings.mobile_custom_css }}
+}
+{%- endcapture -%}
+{{ basel_style | strip_newlines | remove: "  "}}
+
+/* ------------------ Custom CSS overrides to theme ---------------------*/
+/* built in CSS editor in line then transferred here */
+a {-webkit-transition: -webkit-transform 0.5s all;
+    -o-transition: -o-transform 0.5s all;
+    transition: transform 0.5s all;}
+.featured-blog .title-wrapper {
+    margin-bottom: 30px;
+}
+.nathan-header-overlap header.main-header.color-scheme-light {
+    background: #1d1e1f;
+}
+
+.basel-navigation .menu>li.menu-item-design-full-width .sub-menu>li>a, .basel-navigation .menu>li.menu-item-design-sized .sub-menu>li>a {text-transform: initial;}
+
+.nathan-header-overlap header.main-header.color-scheme-light, body.template-list-collections .page-title-default {background: #382f2a !important;}
+.form-control:focus {border-color: rgba(95,9,51,.4) !important;}
+input[type=date]:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=url]:focus, select:focus, textarea:focus, .form-control:focus {border-color: rgba(95,9,51,.4) !important;}
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select, textarea {border-radius: 2px;}
+.cart-widget-side .widget-heading {background-color: #271c26;}
+
+.basel-close-side, #cboxOverlay {background-color: rgba(39,28,38,.7);}
+.product-title a:hover {color: #376d53;}
+.shop_table td.product-remove a {background-color: #5f0933;}
+/* category menu */
+.color-scheme-light .basel-product-categories li .children {width: 209px; border-radius: 2px; background-color: rgba(55,109,83, .95); box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);}
+.color-scheme-light .basel-product-categories li .children:before {color: #376D53;}
+.shop_table td.product-quantity .quantity input[type="number"] {color: #5f0933;}
+.single-product-content .cart .button, .shopify .cart-actions .coupon .button, .added_to_cart.btn-color-black, input[type=submit].btn-color-black, .wishlist_table tr td.product-add-to-cart>.add_to_cart.button, table.compare-list tr.add-to-cart td a {background-color: transparent; color: #333; border: none;}single-product-content .cart .button:focus, .shopify .cart-actions .coupon .button:hover, .shopify .cart-actions .coupon .button:focus, .added_to_cart.btn-color-black:hover, .added_to_cart.btn-color-black:focus, input[type=submit].btn-color-black:hover, input[type=submit].btn-color-black:focus, .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover, .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus, table.compare-list tr.add-to-cart td a:hover, table.compare-list tr.add-to-cart td a:focus {color: #6d3751; text-decoration: underline; background: transparent;}
+.basel-hover-quick .quick-shop-btn > a {background-color: rgba(108, 94, 92, 0.75);}
+.basel-hover-quick .quick-shop-btn > a:hover, .basel-hover-quick .quick-shop-btn > a:focus {background-color: rgba(55,109,83, .65); color: #fff !important;}
+.button, button, input[type=submit] {border-radius: 2px;}
+.plus, .minus {border: none !important; background: transparent !important; font-size: 1.3rem;}
+.basel-tooltip-label {background: #271c26 !important;}
+ {}.basel-tooltip:hover .basel-tooltip-label:before {color: #271c26;}
+.main-nav .menu>li.menu-item-design-sized .sub-menu-dropdown {
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+} 
+
+div.form_submit_div button, div.form_submit_div button:hover, #store-search-form button, .update-cart, .checkout-button, .button .checkout .wc-forward,  .checkout {box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;}
+.cart-collaterals.gl_cart_note, .basel-search-inner, .autocomplete-suggestions, .main-nav .menu>li.menu-item-design-full-width .sub-menu-dropdown {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.page--logo-main .breadcrumb {font-size: 1.2em !important;}
+.order-summary__scroll-indicator {background-color: rgba(88,43,65,0.85) !important;}
+.product-quick-view {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.mfp-move-horizontal.mfp-ready .mfp-with-anim {
+border-radius: 5px;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.added_to_cart:hover, .added_to_cart:focus, .button:hover, .button:focus, button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus, .yith-woocompare-widget a.button.compare:hover, .yith-woocompare-widget a.button.compare:focus, .basel-dark .basel-registration-page .basel-switch-to-register:hover, .basel-dark .basel-registration-page .basel-switch-to-register:focus, .basel-dark .login .button:hover, .basel-dark .login .button:focus, .basel-dark .register .button:hover, .basel-dark .register .button:focus, .basel-dark .widget_shopping_cart .buttons a:hover, .basel-dark .widget_shopping_cart .buttons a:focus, .basel-dark .yith-woocompare-widget a.button.compare:hover, .basel-dark .yith-woocompare-widget a.button.compare:focus, .basel-dark .widget_price_filter .price_slider_amount .button:hover, .basel-dark .widget_price_filter .price_slider_amount .button:focus, .basel-dark .shopify .cart-actions input[name="update_cart"]:hover, .basel-dark .shopify .cart-actions input[name="update_cart"]:focus {background-color: #271c26;}
+
+.add_to_cart_button:hover {color : #6d3751 !important; border-bottom: 2px solid !important; border-radius: 0;}
+
+.single-product-content .slick-vertical>button:hover {background-color: #271c26}
+
+/* body.template-product .product-images .owl-carousel .owl-stage-outer {
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+*/
+.basel-back-btn>span {
+    width: 25px;
+    height: 3px;
+    line-height: 3px;
+    background-color: #5f0933;
+}
+.basel-back-btn>span:before {
+    left: -4px;
+    top: 0;
+    font-size: 20px;
+    line-height: 3px;
+    color: #5f0933;
+}
+.basel-back-btn>span:after {
+    top: -6px;
+    right: -3px;
+    width: 3px;
+    height: 9px;
+    line-height: 0;
+    background-color: #5f0933;
+}
+.basel-products-nav .product-btn>a span {
+    height: 3px;
+    background-color: #5f0933;
+}
+.basel-products-nav .product-btn>a span:before {
+    font-size: 18px;
+    line-height: 5px;
+    color: #5f0933;
+}
+.basel-products-nav .product-short {box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12); background-color: #f9f9f9; border: #f2f2f2 solid 2px; border-radius: 2px;}
+
+.shopify-breadcrumb {font-size: 15px;}
+
+.single-product-content .basel-show-product-gallery-wrap { bottom: 18px;border-radius: 3px;}
+
+.nathan_style_2.single-product-content .cart .button {border-radius: 3px;}
+.nathan_style_2.single-product-content .cart .button:focus, .nathan_style_2.single-product-content .cart .button:hover {color: #fff !important;}
+img {border-radius: 3px;}
+.tea_banner_lookbook .collection-grid-item__overlay, body.template-list-collections .collection-grid-item__overlay {border-radius: 3px;}
