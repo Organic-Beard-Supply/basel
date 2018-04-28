@@ -8,21 +8,24 @@ assets/1-red.jpg.crdownload:
 assets/1-red5.jpg:
   dev: 2018-04-26T12:52:45-07:00   00afc830e9d71e86d88e2e709ab68faa
   development: 2018-02-14T17:10:19-08:00   00afc830e9d71e86d88e2e709ab68faa
-assets/1d07a-bag-on-slider-demo.png:
-  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
-  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/2c423-slide_cosm_1.png:
   dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
   development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
 assets/2f17f-parallax-bg2.jpg:
   dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
+assets/3a923-parallax-bg.jpg:
+  dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
+assets/77ef7-slide-juw.jpg:
+  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
+  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
+assets/7f9a7-jew-slider1.jpg:
+  dev: 2018-04-26T12:52:48-07:00   59bd8b7b6e642df29244c110b4025422
+  development: 2018-02-14T17:10:21-08:00   59bd8b7b6e642df29244c110b4025422
 assets/08b64-slider-flowers.jpg:
   dev: 2018-04-26T12:52:44-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:18-08:00   2159e42b7614b8506adb8d15c6725a43
-assets/15d7d-slide-1.png:
-  dev: 2018-04-26T12:52:45-07:00   fcda4923a59cd9b09a78b10ca31f79a8
-  development: 2018-02-14T17:10:19-08:00   fcda4923a59cd9b09a78b10ca31f79a8
 assets/17d47-market-slide-guitar-1.png:
   dev: 2018-04-26T12:52:45-07:00   5eede39456c4bb0f7a62f2eebf6ca9d0
   development: 2018-02-14T17:10:19-08:00   5eede39456c4bb0f7a62f2eebf6ca9d0
@@ -41,12 +44,6 @@ assets/50ef4-divider-flower.png:
 assets/60f9c-obs-packging.jpg:
   dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
   development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
-assets/77ef7-slide-juw.jpg:
-  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
-  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
-assets/7f9a7-jew-slider1.jpg:
-  dev: 2018-04-26T12:52:48-07:00   59bd8b7b6e642df29244c110b4025422
-  development: 2018-02-14T17:10:21-08:00   59bd8b7b6e642df29244c110b4025422
 assets/137c9-market-slide-boot-3.png:
   dev: 2018-04-26T12:52:45-07:00   6855b76e2ae71f51264ced392eb30a28
   development: 2018-02-14T17:10:19-08:00   6855b76e2ae71f51264ced392eb30a28
@@ -65,6 +62,12 @@ assets/807e8-obs-table-top-bg.jpg:
 assets/1541e-market-slide-boot-1.png:
   dev: 2018-04-26T12:52:45-07:00   c33e3cd96de56a69273a59c0488500ec
   development: 2018-02-14T17:10:19-08:00   c33e3cd96de56a69273a59c0488500ec
+assets/15d7d-slide-1.png:
+  dev: 2018-04-26T12:52:45-07:00   fcda4923a59cd9b09a78b10ca31f79a8
+  development: 2018-02-14T17:10:19-08:00   fcda4923a59cd9b09a78b10ca31f79a8
+assets/1d07a-bag-on-slider-demo.png:
+  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
+  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/2650b-main-big-baner-2.jpg:
   dev: 2018-04-26T12:52:46-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:20-08:00   2159e42b7614b8506adb8d15c6725a43
@@ -74,9 +77,6 @@ assets/2808a-main-big-baner-12.jpg:
 assets/3011b-baterfly-slider.png:
   dev: 2018-04-26T12:52:47-07:00   d1fe0c18e6425b125fdf95ca6fed060a
   development: 2018-02-14T17:10:20-08:00   d1fe0c18e6425b125fdf95ca6fed060a
-assets/3a923-parallax-bg.jpg:
-  dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
-  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/6042e-watch-slide-2.jpg:
   dev: 2018-04-26T12:52:47-07:00   154ed01411b39705b656a470b5f49085
   development: 2018-02-14T17:10:21-08:00   154ed01411b39705b656a470b5f49085
@@ -657,7 +657,7 @@ assets/wine-vintage.png:
   dev: 2018-04-26T12:53:12-07:00   b184a2f3fcc672f32d2646f9ad07eb4e
   development: 2018-02-14T17:10:38-08:00   b184a2f3fcc672f32d2646f9ad07eb4e
 config/settings_data.json:
-  dev: 2018-05-23T07:12:04-07:00   63a46f93d320da9090b89e0883ccc114
+  dev: 2018-05-20T15:59:39-07:00   eadae45d1f459f84f74ba556808b28d7
   development: 2018-04-16T16:01:14-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
   production: 2018-05-03T15:01:30-07:00   cb17402aa0f1b8946a72470260387537
   staging: 2018-04-26T12:53:57-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
