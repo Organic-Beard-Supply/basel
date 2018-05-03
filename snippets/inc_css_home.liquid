@@ -1305,6 +1305,9 @@ p,
     {%- if settings.color_body_text != blank -%}color: {{ settings.color_body_text}};{%- endif -%}
     {%- if settings.size_body_text != blank -%}font-size: {{settings.size_body_text}}px;{%- endif -%}
 }
+.timer-style-text {
+    {%- if settings.color_title_products != blank and settings.color_title_products != 'rgba(0,0,0,0)'-%}color: {{settings.color_title_products}};{%- endif -%}
+}
 {%- endif -%}
 {%- if settings.font_info != blank -%}
 h1 a,
