@@ -50,14 +50,16 @@
        {%- assign class_summary = 'col-sm-4' -%}
 {%- endcase -%}
 {%- case settings.countdown_style -%}
-    {%- when 'light' -%}
-      {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-standard' -%} 
-    {%- when 'dark' -%}
-      {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-standard' -%}
-    {%- when 'transparent_1' -%}
-      {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-transparent' -%}
-   {%- when 'transparent_2' -%}
-      {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-transparent' -%}
+  {%- when 'light' -%}
+    {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-standard' -%} 
+  {%- when 'dark' -%}
+    {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-standard' -%}
+  {%- when 'transparent_1' -%}
+    {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-transparent' -%}
+  {%- when 'transparent_2' -%}
+    {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-transparent' -%}
+  {%- when 'text' -%}
+    {%- assign countdown_style = 'timer-style-text' -%}
 {%- endcase -%}
 {%- if settings.show_share_btn and settings.share_type == '1' -%}
    {%- assign gl_follow_social = false -%}
@@ -604,6 +606,8 @@
                           <meta itemprop="priceCurrency" content="{{ shop.currency }}">
                           <link itemprop="availability" href="http://schema.org/{%- if product.available -%}InStock{%- else -%}OutOfStock{%- endif -%}"> 
                         </div>
+                        {%- assign section_settings_countdown = settings.show_countdown -%}
+                        {%- include 'basel_count_down' -%}
                         {%- if settings.use_description_excerpt -%}
                         {%- assign _prodcut_excerpt_length = settings.prodcut_excerpt_length | plus:0 -%}
                         {%- assign prodcut_excerpt_length = _prodcut_excerpt_length | default: 31 -%}
@@ -625,17 +629,15 @@
                            {%-endif-%}
                         </div>
                         {%-endif-%}
-                        {%- assign section_settings_countdown = settings.show_countdown -%}
-                        {%- include 'basel_count_down' -%}
-                            {%- unless product.options.size == 1 and product.has_only_default_variant -%}
-                              {%-capture variantSoldout-%}
-                              {%-for option in product.options_with_values-%}
-                                  {%-for value in option.values-%}
-                                    {% if option.selected_value == value and forloop.last == false %} bg_{{value | handleize}}{% endif-%}
-                                  {%-endfor-%}
+                        {%- unless product.options.size == 1 and product.has_only_default_variant -%}
+                          {%-capture variantSoldout-%}
+                            {%-for option in product.options_with_values-%}
+                              {%-for value in option.values-%}
+                                {% if option.selected_value == value and forloop.last == false %} bg_{{value | handleize}}{% endif-%}
                               {%-endfor-%}
-                              {%-endcapture-%}
-                           {%-endunless-%}
+                            {%-endfor-%}
+                          {%-endcapture-%}
+                        {%-endunless-%}
                            {%- if product.metafields.external -%}
                               {%- assign check = product.metafields.external | first | last -%}
                               {%- if check contains 'https:' or check  contains 'http:' -%}{%- assign check_external = true -%}{%-else-%}{%- assign check_external = false -%}{%-endif-%}

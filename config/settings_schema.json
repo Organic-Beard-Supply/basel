@@ -2405,6 +2405,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -3088,6 +3092,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -3221,6 +3229,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -3414,6 +3426,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
