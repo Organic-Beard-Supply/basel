@@ -797,6 +797,7 @@
                             <span class="fa fa-exclamation-triangle text-info"></span>{{ 'products.product.will_not_ship_until' | t: date:next_incoming_date }}
                           {%- endif -%}
                         {%- endif -%}
+<<<<<<< HEAD
                       </div>
                     {%- endif -%}
                   {%- elsif linklists[product.handle].links.size == 0 -%}
@@ -850,6 +851,177 @@
                                   {%- if check_external == false -%}
                                     {%- if current_variant.inventory_quantity <= 0 and current_variant.available and current_variant.inventory_management == 'shopify' -%}
                                       <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Pre Order')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt button_block">{{ 'products.product.pre_orders' | t }}</button>
+=======
+                        <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                           <p class="price product-{{product.id}}"{%- unless product.price_varies %} id="productPrice"{%- endunless -%}>
+                             {%- if linklists[product.handle].links.size == 0 -%}
+                               {%- if product.price_varies -%}
+                               {{ product.price_min | money }} – {{ product.price_max | money }}
+                               {%- elsif on_sale -%}<del id="old-product-price">{{current_variant.compare_at_price | money }}</del> <ins id="product-price">{{ current_variant.price | money }}</ins>
+                               {%- else -%}
+                               <span id="product-price">{{ current_variant.price | money }}</span> 
+                               {%- endif -%}
+                             {%- else -%}
+                               {%- if on_sale -%}
+                               {{ current_variant.price | money }} – {{ current_variant.compare_at_price | money }}
+                               {%- else -%}
+                               {{ current_variant.price | money }}
+                               {%- endif -%}
+                             {%- endif -%}
+                             </p>
+                          <meta itemprop="price" content="{{ product.price | divided_by: 100.00 }}">
+                          <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+                          <link itemprop="availability" href="http://schema.org/{%- if product.available -%}InStock{%- else -%}OutOfStock{%- endif -%}"> 
+                        </div>
+                        {%- assign section_settings_countdown = settings.show_countdown -%}
+                        {%- include 'basel_count_down' -%}
+                        {%- if settings.use_description_excerpt -%}
+                        {%- assign _prodcut_excerpt_length = settings.prodcut_excerpt_length | plus:0 -%}
+                        {%- assign prodcut_excerpt_length = _prodcut_excerpt_length | default: 31 -%}
+                        <div class="shopify-product-details__short-description{%- if product.template_suffix == 'design_compact'%} hide hidden{%- endif %}{%- if settings.use_description_full %} gl_mb_20{%- endif -%}" itemprop="description">
+                           {%- if settings.use_description_full -%}
+                              {%- include 'shortcode' load: product.description -%}
+                           {%-else-%}
+                              <p class="p_des_ex">
+                                 {%- if product.metafields.meta.description_excerpt -%}
+                                  {{  product.metafields.meta.description_excerpt | strip }}
+                                {% elsif product.description contains  '[' %}
+                                  {% assign pr_des = product.description | split: '[' %}
+                                  {% assign pr_des = pr_des[1] | split: ']' | first | append:']' | prepend:'[' %}
+                                  {{ product.description | remove: pr_des | html | truncatewords: prodcut_excerpt_length }}
+                                {%-else-%}
+                                  {{ product.description | html | truncatewords: prodcut_excerpt_length }}
+                                {%-endif-%}
+                              </p>
+                           {%-endif-%}
+                        </div>
+                        {%-endif-%}
+                        {%- unless product.options.size == 1 and product.has_only_default_variant -%}
+                          {%-capture variantSoldout-%}
+                            {%-for option in product.options_with_values-%}
+                              {%-for value in option.values-%}
+                                {% if option.selected_value == value and forloop.last == false %} bg_{{value | handleize}}{% endif-%}
+                              {%-endfor-%}
+                            {%-endfor-%}
+                          {%-endcapture-%}
+                        {%-endunless-%}
+                           {%- if product.metafields.external -%}
+                              {%- assign check = product.metafields.external | first | last -%}
+                              {%- if check contains 'https:' or check  contains 'http:' -%}{%- assign check_external = true -%}{%-else-%}{%- assign check_external = false -%}{%-endif-%}
+                           {%-endif-%}
+                           {%- if product.has_only_default_variant == false or linklists[product.handle].links.size == 0 -%}<div id="callBackVariant" class="{{variantSoldout}}">{%- endif-%}
+                           {%- if settings.catalog_mode == false -%}
+                              {%- if product.variants.size == 1 and sold_out -%}
+                                 <p class="stock out-of-stock" id="out-of-stock-gl">{{ 'products.product.outofstock' | t }}</p>
+                                 {%- if settings.product_quantity_message -%}
+                                 <div id="variantQuantity" class="variant-quantity{%- if current_variant.inventory_management %} show{%- endif -%}">
+                                    {%- if current_variant.inventory_management -%}
+                                       {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                          {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
+                                       {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
+                                          {%- assign next_incoming_date = current_variant.next_incoming_date | date: format: 'month_day_year' -%}
+                                          {{ 'products.product.will_not_ship_until' | t: date:next_incoming_date }}
+                                       {%- endif -%}
+                                    {%- endif -%}
+                                 </div>
+                                 {%- endif -%}
+                              {%- elsif linklists[product.handle].links.size == 0 -%}
+                                 {%- if check_external and product.variants.size == 1 -%}
+                                    <p class="cart"><a href="{{ check }}" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" rel="nofollow" class="single_add_to_cart_button button alt">{{ product.metafields.external | first | first }}</a></p>
+                                 {%- else -%}
+                                    <form class="add-to-cart-form cart{%- if product.variants.size > 1 %} variations_form{%-endif %}{%- if settings.show_watch_products %} swatch-color-single{%- endif -%}" method="post" action="/cart/add" data-productid="{{product.id}}" enctype="multipart/form-data" id="cart-form" data-product_id="{{product.id}}"> 
+                                      <select name="id" data-productid="{{product.id }}" id="product-select" class="product-form__variants hide hidden">
+                                        {%- for variant in product.variants -%}
+                                        <option  data-sku="{{ variant.sku }}" data-index="{{ forloop.index0 }}" value="{{ variant.id }}"{%- if variant == current_variant %} selected="selected"{%- endif -%}>{{ variant.title }}</option>
+                                        {%- endfor -%}
+                                      </select>
+                                      {%- if product.variants.size > 1 and settings.swatch_design != '3' -%}{%- include 'swatch' -%}{%- elsif product.variants.size > 1 and settings.swatch_design == '3' -%}{%- include 'swatch_simple' -%}{%- endif -%}
+                                      {%- if product.variants.size > 1 -%}
+                                      {% if product.available %}{% include 'subscription-product' %}{% endif %}
+                                         <div class="single_variation_wrap">
+                                             {%- if product.price_varies -%}
+                                             <div class="shopify-variation single_variation">
+                                                 <div class="shopify-variation-price">
+                                                   <span class="price product-{{product.id}}" id="productPrice">
+                                                     {%- if on_sale -%}<del id="old-product-price">{{ current_variant.compare_at_price | money }}</del> <ins id="product-price">{{ current_variant.price | money }}</ins>
+                                                     {%- else -%}
+                                                     <span id="product-price">{{ current_variant.price | money }}</span> 
+                                                     {%- endif -%}
+                                                   </span>
+                                                 </div>
+                                              </div>
+                                              {%- endif -%}
+                                             {%- if settings.product_quantity_message -%}
+                                                <div id="variantQuantity" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
+                                                   {%- if product.has_only_default_variant and current_variant.inventory_management -%}
+                                                      {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                                         {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
+                                                      {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
+                                                         {{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
+                                                      {%- endif -%}
+                                                   {%- endif -%}
+                                                </div>
+                                                {%- endif -%}
+                                            <div class="shopify-variation-add-to-cart variations_button shopify-variation-add-to-cart-enabled">
+                                                <div id="shopify_quantity" class="quantity">
+                                                   <input type="button" value="-" class="minus">
+                                                   <input type="number" step="1" min="1" max="{%- if current_variant.inventory_management != null -%}{{current_variant.inventory_quantity}}{%- else -%}999{%- endif -%}" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                                   <input type="button" value="+" class="plus">
+                                                </div>
+                                                <p class="stock out-of-stock variant_stock" id="out-of-stock-gl" style="display: none">{{ 'products.product.outofstock' | t }}</p>
+                                                {% comment %}<input required class="required" id="product" type="hidden" name="attributes[product]" value="{{ get_group_handle }}">{% endcomment %}
+                                                {%- if check_external == false -%}
+                                                {%- if current_variant.inventory_quantity <= 0 and current_variant.available and current_variant.inventory_management == 'shopify' -%}
+                                                <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Pre Order')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt">{{ 'products.product.pre_orders' | t }}</button>
+                                               {%- else -%}
+                                               <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt">{{ 'products.product.add_to_cart' | t }}</button>
+                                               {%- endif -%}
+                                                {%- else -%}
+                                                <a href="{{ check }}" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'External')" rel="nofollow" class="single_add_to_cart_button button alt">{{ product.metafields.external | first | first }}</a>
+                                                {%- endif -%}
+                                             </div>
+                                         </div>
+                                      {%- else -%}
+                                           {% if product.available %}{% include 'subscription-product' %}{% endif %}
+                                          {%- if settings.product_quantity_message -%}
+                                             <div id="variantQuantity" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
+                                                {%- if product.has_only_default_variant and current_variant.inventory_management -%}
+                                                   {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                                      {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
+                                                   {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
+                                                      {{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
+                                                   {%- endif -%}
+                                                {%- endif -%}
+                                             </div>
+                                          {%- endif -%}
+                                          <div id="shopify_quantity" class="quantity">
+                                             <input type="button" value="-" class="minus">
+                                             <input type="number" step="1" min="1" max="{%- if current_variant.inventory_management != null -%}{{current_variant.inventory_quantity}}{%- else -%}999{%- endif -%}" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                             <input type="button" value="+" class="plus">
+                                          </div>
+                                          <p class="stock out-of-stock variant_stock" id="out-of-stock-gl" style="display: none">{{ 'products.product.outofstock' | t }}</p>
+                                          {%- if check_external == false -%}
+                                            {%- if current_variant.inventory_quantity <= 0 and current_variant.available and current_variant.inventory_management == 'shopify' -%}
+                                             <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Pre Order')"  id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt">{{ 'products.product.pre_orders' | t }}</button>
+                                            {%- else -%}
+                                            <button type="submit" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt">{{ 'products.product.add_to_cart' | t }}</button>
+                                            {%- endif -%}
+                                          {%- else -%}
+                                          <a href="{{ check }}" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Stabdard')" rel="nofollow" class="single_add_to_cart_button button alt">{{ product.metafields.external | first | first }}</a>
+                                          {%- endif -%}
+                                      {%- endif -%}
+                                    </form>
+                                 {%- endif -%}
+                              {%- else -%}
+                                 <form class="cart" method="post" enctype="multipart/form-data">
+                                    <table cellspacing="0" class="group_table">
+                                       <tbody>
+                                       {%- include 'product_group' -%}
+                                       </tbody>
+                                    </table>
+                                    {%- if check_external == false -%}
+                                     <button type="submit" id="multi-variant-add" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Multi-Variant')" class="add_to_cart_button single_add_to_cart_button button alt">{{ 'products.product.add_to_cart' | t }}</button>
+>>>>>>> Add 'text' option for sale countdown
                                     {%- else -%}
                                       <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button button_block">{{ 'products.product.add_to_cart' | t }}</button>
                                     {%- endif -%}
