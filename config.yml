@@ -4,7 +4,7 @@ SHARED: &SHARED
   ignore_files:
     - "*.swp"
     - "*~"
-    - "config/settings_data.json"
+    #- "config/settings_data.json"
 
 dev:
   <<: *SHARED
