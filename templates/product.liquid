@@ -142,13 +142,19 @@
             $quantityElements.hide();
             $outofstock.show();
           }
-           // Update price display.
+          
+          //
+          //  TODO:
+          //    - [ ] Remove 'del' and 'ins' from this because it's not laid out like that anymore
+          //    - [ ] Update 'comparePrice' (sale price)
+          
+          // Update price display.
           var customPrice = Shopify.formatMoney(variant.price, theme.moneyFormat);
           if (variant.compare_at_price > variant.price) {
             var comparePrice = Shopify.formatMoney(variant.compare_at_price, theme.moneyFormat);
             var customPriceFormat = ' <del id="old-product-price">' + comparePrice + '</del>';
                 customPriceFormat += ' <ins id="product-price">' + customPrice + '</ins>';
-            $productPrice.html(customPriceFormat);
+                $productPrice.html(customPriceFormat);
           }else{
              $productPrice.html(customPrice);
           }
