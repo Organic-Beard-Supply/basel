@@ -2898,6 +2898,15 @@
         "default": false
       },
       {
+        "type": "range",
+        "id": "product_quantity_limit",
+        "label": "Remaining quantity threshold",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "default": 10
+      },
+      {
         "type": "checkbox",
         "id": "use_description_excerpt",
         "label": "Show Product short description?",
