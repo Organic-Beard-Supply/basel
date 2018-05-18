@@ -662,24 +662,6 @@
                     </a>
                   </small>
                 {%- endif -%}
-
-                {% comment %} 
-                  TODO:
-                  - [x] Overall
-                    - [x] Give new price section (see below) update logic when variable / shipping options changes
-                    - [x] Remove price from nead "add to cart" button
-                  - [x] Not on sale
-                    - [x] Show currently selected "variable's price"
-                  - [x] On sale
-                    - [x] Show (and strike through) currently selected variable's "compare at price"
-                    - [x] Show (and highlight) currently selected variable's "sale price"
-                    - [x] Add "You save $XX (YY%)" next to currently selected variable's sale
-                    - [x] Update "You save $XX (YY%)" when auto-ship is selected
-                  - [ ] Recurring delivery option selected
-                    - [ ] Show (and strike through) currently selected variable's price
-                    - [ ] Show (and highlight) currently selected variable's subscription price
-                    - [ ] Add "You save $XX (YY%)" next to currently selected variable's subscription price
-                {% endcomment %}
                 <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
                     {%- if linklists[product.handle].links.size == 0 -%}
                       {%- if on_sale -%}
@@ -716,10 +698,8 @@
                         <table class="table table-slim table-borderless table-auto-width">
                           <tr>
                             <td class="text-right">Price:</td>
-                            <td class="text-left price price-highlight price-sale product-{{product.id}}" id="productPrice">                            
-                              <p>
+                            <td class="text-left price price-highlight product-{{product.id}}" id="productPrice">
                                 {{ current_variant.price | money }}
-                              </p>
                             </td>
                           </tr>
                         </table>
@@ -802,7 +782,7 @@
                     {%- if check_external and product.variants.size == 1 -%}
                       <p class="cart"><a href="{{ check }}" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" rel="nofollow" class="single_add_to_cart_button button alt">{{ product.metafields.external | first | first }}</a></p>
                     {%- else -%}
-                      <form class="add-to-cart-form cart{%- if product.variants.size > 1 %} variations_form{%-endif %}{%- if settings.show_watch_products %} swatch-color-single{%- endif -%}" method="post" action="/cart/add" data-productid="{{product.id}}" enctype="multipart/form-data" id="cart-form" data-product_id="{{product.id}}"> 
+                      <form class="add-to-cart-form cart variations_form{%- if settings.show_watch_products %} swatch-color-single{%- endif -%}" method="post" action="/cart/add" data-productid="{{product.id}}" enctype="multipart/form-data" id="cart-form" data-product_id="{{product.id}}"> 
                         <select name="id" data-productid="{{product.id}}" id="product-select" class="product-form__variants hide hidden">
                           {%- for variant in product.variants -%}
                             <option  data-sku="{{ variant.sku }}" data-index="{{ forloop.index0 }}" value="{{ variant.id }}"{%- if variant == current_variant %} selected="selected"{%- endif -%}>{{ variant.title }}</option>
