@@ -8,18 +8,30 @@ assets/1-red.jpg.crdownload:
 assets/1-red5.jpg:
   dev: 2018-04-26T12:52:45-07:00   00afc830e9d71e86d88e2e709ab68faa
   development: 2018-02-14T17:10:19-08:00   00afc830e9d71e86d88e2e709ab68faa
+<<<<<<< HEAD
+=======
+assets/23d3e-slide-hero-6.jpg:
+  dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
+  development: 2018-02-14T17:10:19-08:00   a2d002bec21b2a45da76990bdd9a23ba
+assets/25dfd-slide-hero-7.jpg:
+  dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
+  development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
+>>>>>>> Update single variant prices to reflect new style.
 assets/2c423-slide_cosm_1.png:
   dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
   development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
 assets/2f17f-parallax-bg2.jpg:
   dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
+<<<<<<< HEAD
 assets/3a923-parallax-bg.jpg:
   dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/77ef7-slide-juw.jpg:
   dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
   development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
+=======
+>>>>>>> Update single variant prices to reflect new style.
 assets/7f9a7-jew-slider1.jpg:
   dev: 2018-04-26T12:52:48-07:00   59bd8b7b6e642df29244c110b4025422
   development: 2018-02-14T17:10:21-08:00   59bd8b7b6e642df29244c110b4025422
@@ -29,12 +41,15 @@ assets/08b64-slider-flowers.jpg:
 assets/17d47-market-slide-guitar-1.png:
   dev: 2018-04-26T12:52:45-07:00   5eede39456c4bb0f7a62f2eebf6ca9d0
   development: 2018-02-14T17:10:19-08:00   5eede39456c4bb0f7a62f2eebf6ca9d0
+<<<<<<< HEAD
 assets/23d3e-slide-hero-6.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:19-08:00   a2d002bec21b2a45da76990bdd9a23ba
 assets/25dfd-slide-hero-7.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
+=======
+>>>>>>> Update single variant prices to reflect new style.
 assets/34e8d-slider-bikini-5.jpg:
   dev: 2018-04-26T12:52:47-07:00   7618c3c30be0b7f19bd5d5ac725616a5
   development: 2018-02-14T17:10:20-08:00   7618c3c30be0b7f19bd5d5ac725616a5
@@ -50,6 +65,9 @@ assets/137c9-market-slide-boot-3.png:
 assets/166e6-market-slide-guitar-3.png:
   dev: 2018-04-26T12:52:45-07:00   3154e20112e1f3942a33efcc78b2ecf6
   development: 2018-02-14T17:10:19-08:00   3154e20112e1f3942a33efcc78b2ecf6
+assets/1d07a-bag-on-slider-demo.png:
+  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
+  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/240c0-wine-slide-4.jpg:
   dev: 2018-04-26T12:52:46-07:00   9fb2dfb912898eea169b085a94c8e2f5
   development: 2018-02-14T17:10:19-08:00   9fb2dfb912898eea169b085a94c8e2f5
@@ -77,6 +95,9 @@ assets/2808a-main-big-baner-12.jpg:
 assets/3011b-baterfly-slider.png:
   dev: 2018-04-26T12:52:47-07:00   d1fe0c18e6425b125fdf95ca6fed060a
   development: 2018-02-14T17:10:20-08:00   d1fe0c18e6425b125fdf95ca6fed060a
+assets/3a923-parallax-bg.jpg:
+  dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/6042e-watch-slide-2.jpg:
   dev: 2018-04-26T12:52:47-07:00   154ed01411b39705b656a470b5f49085
   development: 2018-02-14T17:10:21-08:00   154ed01411b39705b656a470b5f49085
@@ -1248,7 +1269,11 @@ snippets/product_one_image.liquid:
   dev: 2018-04-26T12:53:16-07:00   9b3c9818a7580e642b3574aac3943bdc
   development: 2018-02-14T17:10:41-08:00   9b3c9818a7580e642b3574aac3943bdc
 snippets/product_page_area.liquid:
+<<<<<<< HEAD
   dev: 2018-05-20T15:51:52-07:00   c1814e2449bc44a6be67ecd7a32e4c38
+=======
+  dev: 2018-05-18T13:36:35-07:00   aee2aa25643098cff0c608160101c501
+>>>>>>> Update single variant prices to reflect new style.
   development: 2018-02-27T13:27:52-08:00   72ba9902be68302ac196e08bbe4b8218
   production: 2018-05-22T16:22:00-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 snippets/related-products-by-handle.liquid:
@@ -1587,7 +1612,11 @@ templates/product.json.liquid:
   dev: 2018-04-26T12:53:21-07:00   bd1186a8d833e0bbeb8f5cb879138696
   development: 2018-02-19T07:33:50-08:00   bd1186a8d833e0bbeb8f5cb879138696
 templates/product.liquid:
+<<<<<<< HEAD
   dev: 2018-05-22T10:00:00-07:00   85c008a2e67f1c3f11663bdec8b30b92
+=======
+  dev: 2018-05-18T10:53:27-07:00   646c33140abda55f5543874ab2b18422
+>>>>>>> Update single variant prices to reflect new style.
   development: 2018-02-14T17:10:43-08:00   523bd937c760b49ee455d3b4c319e05f
   production: 2018-05-22T16:22:02-07:00   85c008a2e67f1c3f11663bdec8b30b92
 templates/product.quick_view.liquid:
