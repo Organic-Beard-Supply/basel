@@ -163,8 +163,7 @@
           var customPrice = Shopify.formatMoney(variant_price, theme.moneyFormat);
           $productPrice.html(customPrice);
           
-          if (variant.compare_at_price > variant.price) {
-
+          if (variant.compare_at_price > variant_price) {
             var comparePrice = Shopify.formatMoney(variant.compare_at_price, theme.moneyFormat);
             $comparePrice.html(`<del id="old-product-price">${comparePrice}</del>`);
             
