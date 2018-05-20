@@ -2902,7 +2902,6 @@
         "id": "product_quantity_limit",
         "label": "Remaining quantity threshold",
         "min": 1,
-        "max": 100,
         "step": 1,
         "default": 10
       },
