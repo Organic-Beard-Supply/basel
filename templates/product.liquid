@@ -77,6 +77,7 @@
         {% if forloop.index == 2 and check_variant_title == variant.option2 %}
           {%- assign check_variant_one = true -%}
           {%- break -%}
+<<<<<<< HEAD
         {% endif %}
       {%- endfor -%}
     {%- endif -%}
@@ -136,6 +137,53 @@
               // Update quantity.
               if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null) {
                 $addToCart.html({{ 'products.product.pre_orders' | t | json }}).addClass('alt');
+=======
+      {% endif %}
+   {%- endfor -%}
+{%- endif -%}
+  <script type="text/javascript">
+    (function($) {
+      "use strict";
+      var featured_image_id = null,$variantId,cout=0;
+      var selectCallback = function(variant, selector) {
+        var $variantQuantity = $('#variantQuantity'),
+            $productPrice = $('#productPrice'),
+            $comparePrice = $('#comparePrice'),
+            $productSavings = $('#productSavings'),
+            $quantityElements = $('#shopify_quantity'),
+            $outofstock = $('#out-of-stock-gl'),
+            $productsku = $('#product-sku'),
+            $input = $('#shopify_quantity input.qty'),
+            $addToCart = $('#shopify_add_to_cart');
+            {%- if product.has_only_default_variant == false %}
+               {%- if product.options.size == 2 -%}
+                $('#callBackVariant').attr('class','bg_'+ $('#product-select-option-0').val());
+               $('#callBackVariant').addClass('bg_' + $('#product-select-option-1').val());
+               {%- elsif product.options.size == 3 -%}
+                $('#callBackVariant').attr('class','bg_'+ $('#product-select-option-0').val());
+                $('#callBackVariant').addClass('bg_' + $('#product-select-option-1').val());
+                $('#callBackVariant').addClass('bg_' + $('#product-select-option-2').val());
+               {%- endif -%}
+            {%- endif %}
+        if(variant){
+          $variantId = variant.id;
+          //$unavailable.hide();
+          // Select a valid variant if available
+          if (variant.available) {
+            // We have a valid product variant, so enable the submit button
+            // $addToCart.removeClass('disabled').prop('disabled', false);
+            // $addToCart.text(theme.productStrings.add_to_cart);
+            $addToCart.show();
+            $quantityElements.show();
+            $outofstock.hide();
+            // Show how many items are left, if below 10
+            {% if settings.product_quantity_message %}
+            if (variant.inventory_management) {
+              if (variant.inventory_quantity < 10 && variant.inventory_quantity > 0) {
+                $variantQuantity.html('<span class="fa fa-exclamation-triangle text-warning"></span>' + {{ 'products.product.only_left' | t: count: '1' | json }}.replace('1', variant.inventory_quantity)).addClass('is-visible');
+              } else if (variant.inventory_quantity <= 0 && variant.incoming) {
+                $variantQuantity.html('<span class="fa fa-exclamation-triangle text-info"></span>' + {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }}.replace('[date]', variant.next_incoming_date)).addClass('is-visible');
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
               } else {
                 $addToCart.html({{ 'products.product.add_to_cart' | t | json }}).removeClass('alt');
               }
@@ -169,6 +217,25 @@
                 }
               {% endfor %}
             {% endif %}
+<<<<<<< HEAD
+=======
+            // Update quantity.
+            if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null) {
+              $addToCart
+                .html({{ 'products.product.pre_orders' | t | json }})
+                .addClass('alt');
+            } else {
+              $addToCart
+                .html({{ 'products.product.add_to_cart' | t | json }})
+                .removeClass('alt');
+            }
+            if(variant.inventory_management != null ){
+              //Check if inventory management by shopify
+              $input.attr('max',variant.inventory_quantity).val(1).attr('value',1);
+            }else{
+              $input.attr('max',999);
+            }
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
 
             if (discount_variant_price) {
               var $selected_recurring_option = $('#rc_container input[type="radio"]:checked');

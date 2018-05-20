@@ -790,7 +790,11 @@
                     {%- if settings.product_quantity_message -%}
                       <div id="variantQuantity" class="variant-quantity{%- if current_variant.inventory_management %} show{%- endif -%}">
                         {%- if current_variant.inventory_management -%}
+<<<<<<< HEAD
                           {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
+=======
+                          {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
                             <span class="fa fa-exclamation-triangle text-warning"></span>{{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                           {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                             {%- assign next_incoming_date = current_variant.next_incoming_date | date: format: 'month_day_year' -%}
@@ -825,7 +829,11 @@
                             {%- if settings.product_quantity_message -%}
                               <div id="variantQuantity" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
                                 {%- if product.has_only_default_variant and current_variant.inventory_management -%}
+<<<<<<< HEAD
                                   {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
+=======
+                                  {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
                                     <span class="fa fa-exclamation-triangle text-warning"></span>{{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                                   {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                                     <span class="fa fa-exclamation-triangle text-info"></span>{{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
@@ -851,7 +859,11 @@
                                     {%- if current_variant.inventory_quantity <= 0 and current_variant.available and current_variant.inventory_management == 'shopify' -%}
                                       <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Pre Order')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt button_block">{{ 'products.product.pre_orders' | t }}</button>
                                     {%- else -%}
+<<<<<<< HEAD
                                       <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button alt">{{ 'products.product.add_to_cart' | t }}</button>
+=======
+                                      <button type="submit" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'Standard')" id="shopify_add_to_cart" class="add_to_cart_button ajax_form_cart single_add_to_cart_button button button_block">{{ 'products.product.add_to_cart' | t }}</button>
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
                                     {%- endif -%}
                                   {%- else -%}
                                     <a href="{{ check }}" onClick="trackAddToCart('Shop', 'Product Page', 'Button', {{ product.id }}, '{{ product.handle }}', '{{ product.title }}', 'External')" rel="nofollow" class="single_add_to_cart_button button button_block">{{ product.metafields.external | first | first }}</a>
@@ -867,7 +879,11 @@
                           {%- if settings.product_quantity_message -%}
                             <div id="variantQuantity" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
                               {%- if product.has_only_default_variant and current_variant.inventory_management -%}
+<<<<<<< HEAD
                                 {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
+=======
+                                {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
                                   <span class="fa fa-exclamation-triangle text-warning"></span>{{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                                 {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                                   <span class="fa fa-exclamation-triangle text-info"></span>{{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
