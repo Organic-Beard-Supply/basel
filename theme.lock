@@ -27,13 +27,17 @@ assets/2f17f-parallax-bg2.jpg:
 assets/1d07a-bag-on-slider-demo.png:
   dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
   development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
-assets/34e8d-slider-bikini-5.jpg:
-  dev: 2018-04-26T12:52:47-07:00   7618c3c30be0b7f19bd5d5ac725616a5
-  development: 2018-02-14T17:10:20-08:00   7618c3c30be0b7f19bd5d5ac725616a5
+assets/2c423-slide_cosm_1.png:
+  dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
+  development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
+assets/2f17f-parallax-bg2.jpg:
+  dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/3a923-parallax-bg.jpg:
   dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
+<<<<<<< HEAD
 <<<<<<< HEAD
 assets/3a923-parallax-bg.jpg:
   dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
@@ -43,6 +47,14 @@ assets/77ef7-slide-juw.jpg:
   development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
 =======
 >>>>>>> Update single variant prices to reflect new style.
+=======
+assets/77ef7-slide-juw.jpg:
+  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
+  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
+assets/7081c-watch_08_fallback_large.png:
+  dev: 2018-04-26T12:52:47-07:00   2c7003a14360bfe6dca2978ef334f0e2
+  development: 2018-02-14T17:10:21-08:00   2c7003a14360bfe6dca2978ef334f0e2
+>>>>>>> update collection grid and list views with new price styling for on sale products / variants
 assets/7f9a7-jew-slider1.jpg:
   dev: 2018-04-26T12:52:48-07:00   59bd8b7b6e642df29244c110b4025422
   development: 2018-02-14T17:10:21-08:00   59bd8b7b6e642df29244c110b4025422
@@ -63,6 +75,7 @@ assets/25dfd-slide-hero-7.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Update single variant prices to reflect new style.
 assets/34e8d-slider-bikini-5.jpg:
@@ -82,6 +95,17 @@ assets/77ef7-slide-juw.jpg:
   dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
   development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+assets/34e8d-slider-bikini-5.jpg:
+  dev: 2018-04-26T12:52:47-07:00   7618c3c30be0b7f19bd5d5ac725616a5
+  development: 2018-02-14T17:10:20-08:00   7618c3c30be0b7f19bd5d5ac725616a5
+assets/50ef4-divider-flower.png:
+  dev: 2018-04-26T12:52:47-07:00   65d52999ac1991262e41107372b8898d
+  development: 2018-02-14T17:10:21-08:00   65d52999ac1991262e41107372b8898d
+assets/60f9c-obs-packging.jpg:
+  dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
+  development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
+>>>>>>> update collection grid and list views with new price styling for on sale products / variants
 assets/137c9-market-slide-boot-3.png:
   dev: 2018-04-26T12:52:45-07:00   6855b76e2ae71f51264ced392eb30a28
   development: 2018-02-14T17:10:19-08:00   6855b76e2ae71f51264ced392eb30a28
@@ -103,33 +127,24 @@ assets/1541e-market-slide-boot-1.png:
 assets/15d7d-slide-1.png:
   dev: 2018-04-26T12:52:45-07:00   fcda4923a59cd9b09a78b10ca31f79a8
   development: 2018-02-14T17:10:19-08:00   fcda4923a59cd9b09a78b10ca31f79a8
+<<<<<<< HEAD
 assets/1d07a-bag-on-slider-demo.png:
   dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
   development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
+=======
+>>>>>>> update collection grid and list views with new price styling for on sale products / variants
 assets/2650b-main-big-baner-2.jpg:
   dev: 2018-04-26T12:52:46-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:20-08:00   2159e42b7614b8506adb8d15c6725a43
 assets/2808a-main-big-baner-12.jpg:
   dev: 2018-04-26T12:52:46-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:20-08:00   2159e42b7614b8506adb8d15c6725a43
-assets/2c423-slide_cosm_1.png:
-  dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
-  development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
-assets/2f17f-parallax-bg2.jpg:
-  dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
-  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/3011b-baterfly-slider.png:
   dev: 2018-04-26T12:52:47-07:00   d1fe0c18e6425b125fdf95ca6fed060a
   development: 2018-02-14T17:10:20-08:00   d1fe0c18e6425b125fdf95ca6fed060a
 assets/6042e-watch-slide-2.jpg:
   dev: 2018-04-26T12:52:47-07:00   154ed01411b39705b656a470b5f49085
   development: 2018-02-14T17:10:21-08:00   154ed01411b39705b656a470b5f49085
-assets/60f9c-obs-packging.jpg:
-  dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
-  development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
-assets/7081c-watch_08_fallback_large.png:
-  dev: 2018-04-26T12:52:47-07:00   2c7003a14360bfe6dca2978ef334f0e2
-  development: 2018-02-14T17:10:21-08:00   2c7003a14360bfe6dca2978ef334f0e2
 assets/13682-slider1_2-1.jpg:
   dev: 2018-04-26T12:52:45-07:00   76f0568ae34f9195af01a7344e6bac3c
   development: 2018-02-14T17:10:19-08:00   76f0568ae34f9195af01a7344e6bac3c
@@ -717,10 +732,14 @@ assets/wine-vintage.png:
   development: 2018-02-14T17:10:38-08:00   b184a2f3fcc672f32d2646f9ad07eb4e
 config/settings_data.json:
 <<<<<<< HEAD
+<<<<<<< HEAD
   dev: 2018-05-20T15:59:39-07:00   eadae45d1f459f84f74ba556808b28d7
 =======
   dev: 2018-05-20T14:04:22-07:00   5835482e37d954c56cfd33a8df3f48e5
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+  dev: 2018-05-20T14:48:45-07:00   eb63cc0707d316a10aebc0a83acedd93
+>>>>>>> update collection grid and list views with new price styling for on sale products / variants
   development: 2018-04-16T16:01:14-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
   production: 2018-05-03T15:01:30-07:00   cb17402aa0f1b8946a72470260387537
   staging: 2018-04-26T12:53:57-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
@@ -1317,6 +1336,7 @@ snippets/product_one_image.liquid:
 snippets/product_page_area.liquid:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   dev: 2018-05-20T15:51:52-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 =======
   dev: 2018-05-18T13:36:35-07:00   aee2aa25643098cff0c608160101c501
@@ -1324,6 +1344,9 @@ snippets/product_page_area.liquid:
 =======
   dev: 2018-05-20T14:17:01-07:00   d0bbc6fb7f6dc7b9a770f43a3c9637d4
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+  dev: 2018-05-20T15:01:50-07:00   435f3ea05a9d2b951643030bd721baec
+>>>>>>> update collection grid and list views with new price styling for on sale products / variants
   development: 2018-02-27T13:27:52-08:00   72ba9902be68302ac196e08bbe4b8218
   production: 2018-05-22T16:22:00-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 snippets/related-products-by-handle.liquid:
