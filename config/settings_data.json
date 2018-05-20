@@ -195,7 +195,11 @@
     "use_view_360": false,
     "use_clicking_variant_image": true,
     "product_quantity_message": true,
+<<<<<<< HEAD
     "product_quantity_limit": "10",
+=======
+    "product_quantity_limit": "30",
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
     "use_description_with_subscription": false,
     "use_description_excerpt": true,
     "use_description_full": false,

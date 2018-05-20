@@ -9,6 +9,7 @@ assets/1-red5.jpg:
   dev: 2018-04-26T12:52:45-07:00   00afc830e9d71e86d88e2e709ab68faa
   development: 2018-02-14T17:10:19-08:00   00afc830e9d71e86d88e2e709ab68faa
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 assets/23d3e-slide-hero-6.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
@@ -22,6 +23,16 @@ assets/2c423-slide_cosm_1.png:
   development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
 assets/2f17f-parallax-bg2.jpg:
   dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+=======
+assets/1d07a-bag-on-slider-demo.png:
+  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
+  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
+assets/34e8d-slider-bikini-5.jpg:
+  dev: 2018-04-26T12:52:47-07:00   7618c3c30be0b7f19bd5d5ac725616a5
+  development: 2018-02-14T17:10:20-08:00   7618c3c30be0b7f19bd5d5ac725616a5
+assets/3a923-parallax-bg.jpg:
+  dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 <<<<<<< HEAD
 assets/3a923-parallax-bg.jpg:
@@ -42,12 +53,16 @@ assets/17d47-market-slide-guitar-1.png:
   dev: 2018-04-26T12:52:45-07:00   5eede39456c4bb0f7a62f2eebf6ca9d0
   development: 2018-02-14T17:10:19-08:00   5eede39456c4bb0f7a62f2eebf6ca9d0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
 assets/23d3e-slide-hero-6.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:19-08:00   a2d002bec21b2a45da76990bdd9a23ba
 assets/25dfd-slide-hero-7.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
+<<<<<<< HEAD
 =======
 >>>>>>> Update single variant prices to reflect new style.
 assets/34e8d-slider-bikini-5.jpg:
@@ -59,15 +74,20 @@ assets/50ef4-divider-flower.png:
 assets/60f9c-obs-packging.jpg:
   dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
   development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
+=======
+assets/50ef4-divider-flower.png:
+  dev: 2018-04-26T12:52:47-07:00   65d52999ac1991262e41107372b8898d
+  development: 2018-02-14T17:10:21-08:00   65d52999ac1991262e41107372b8898d
+assets/77ef7-slide-juw.jpg:
+  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
+  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
 assets/137c9-market-slide-boot-3.png:
   dev: 2018-04-26T12:52:45-07:00   6855b76e2ae71f51264ced392eb30a28
   development: 2018-02-14T17:10:19-08:00   6855b76e2ae71f51264ced392eb30a28
 assets/166e6-market-slide-guitar-3.png:
   dev: 2018-04-26T12:52:45-07:00   3154e20112e1f3942a33efcc78b2ecf6
   development: 2018-02-14T17:10:19-08:00   3154e20112e1f3942a33efcc78b2ecf6
-assets/1d07a-bag-on-slider-demo.png:
-  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
-  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/240c0-wine-slide-4.jpg:
   dev: 2018-04-26T12:52:46-07:00   9fb2dfb912898eea169b085a94c8e2f5
   development: 2018-02-14T17:10:19-08:00   9fb2dfb912898eea169b085a94c8e2f5
@@ -92,15 +112,21 @@ assets/2650b-main-big-baner-2.jpg:
 assets/2808a-main-big-baner-12.jpg:
   dev: 2018-04-26T12:52:46-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:20-08:00   2159e42b7614b8506adb8d15c6725a43
+assets/2c423-slide_cosm_1.png:
+  dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
+  development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
+assets/2f17f-parallax-bg2.jpg:
+  dev: 2018-04-26T12:52:46-07:00   8920f43d3c6e15c2efd76c62b0a2d669
+  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/3011b-baterfly-slider.png:
   dev: 2018-04-26T12:52:47-07:00   d1fe0c18e6425b125fdf95ca6fed060a
   development: 2018-02-14T17:10:20-08:00   d1fe0c18e6425b125fdf95ca6fed060a
-assets/3a923-parallax-bg.jpg:
-  dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
-  development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
 assets/6042e-watch-slide-2.jpg:
   dev: 2018-04-26T12:52:47-07:00   154ed01411b39705b656a470b5f49085
   development: 2018-02-14T17:10:21-08:00   154ed01411b39705b656a470b5f49085
+assets/60f9c-obs-packging.jpg:
+  dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
+  development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
 assets/7081c-watch_08_fallback_large.png:
   dev: 2018-04-26T12:52:47-07:00   2c7003a14360bfe6dca2978ef334f0e2
   development: 2018-02-14T17:10:21-08:00   2c7003a14360bfe6dca2978ef334f0e2
@@ -308,6 +334,7 @@ assets/dummy-corp-slide-1.jpg:
 assets/dummy-corp-slide-2.jpg:
   dev: 2018-04-26T12:52:54-07:00   35aad06acffd4e4760cf344654d95b29
   development: 2018-02-14T17:10:28-08:00   35aad06acffd4e4760cf344654d95b29
+<<<<<<< HEAD
 assets/e2b7d-slide-2-2.jpg:
   dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
   development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
@@ -317,6 +344,17 @@ assets/e04a5-slide_cosm_1-1.jpg:
 assets/e0bfd-slider-main-img-1.jpg:
   dev: 2018-04-26T12:52:54-07:00   9fb2dfb912898eea169b085a94c8e2f5
   development: 2018-02-14T17:10:28-08:00   9fb2dfb912898eea169b085a94c8e2f5
+=======
+assets/e0bfd-slider-main-img-1.jpg:
+  dev: 2018-04-26T12:52:54-07:00   9fb2dfb912898eea169b085a94c8e2f5
+  development: 2018-02-14T17:10:28-08:00   9fb2dfb912898eea169b085a94c8e2f5
+assets/e2b7d-slide-2-2.jpg:
+  dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
+  development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
+assets/e04a5-slide_cosm_1-1.jpg:
+  dev: 2018-04-26T12:52:54-07:00   2198150da20231ec249194d915bc804f
+  development: 2018-02-14T17:10:28-08:00   2198150da20231ec249194d915bc804f
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
 assets/eb870-slider-bikini-6.jpg:
   dev: 2018-04-26T12:52:55-07:00   7618c3c30be0b7f19bd5d5ac725616a5
   development: 2018-02-14T17:10:28-08:00   7618c3c30be0b7f19bd5d5ac725616a5
@@ -678,12 +716,20 @@ assets/wine-vintage.png:
   dev: 2018-04-26T12:53:12-07:00   b184a2f3fcc672f32d2646f9ad07eb4e
   development: 2018-02-14T17:10:38-08:00   b184a2f3fcc672f32d2646f9ad07eb4e
 config/settings_data.json:
+<<<<<<< HEAD
   dev: 2018-05-20T15:59:39-07:00   eadae45d1f459f84f74ba556808b28d7
+=======
+  dev: 2018-05-20T14:04:22-07:00   5835482e37d954c56cfd33a8df3f48e5
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-04-16T16:01:14-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
   production: 2018-05-03T15:01:30-07:00   cb17402aa0f1b8946a72470260387537
   staging: 2018-04-26T12:53:57-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
 config/settings_schema.json:
+<<<<<<< HEAD
   dev: 2018-05-22T16:18:48-07:00   ffc4e488a9ff0b81c1527a64ddbddf0c
+=======
+  dev: 2018-05-20T14:07:05-07:00   cd607dcbc868cfa52c8bfeff844813e3
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-02-14T17:10:44-08:00   fe8ea408acaed3281a728bcf5a6fb326
   production: 2018-05-22T16:22:01-07:00   ffc4e488a9ff0b81c1527a64ddbddf0c
 layout/gift_card.liquid:
@@ -1270,10 +1316,14 @@ snippets/product_one_image.liquid:
   development: 2018-02-14T17:10:41-08:00   9b3c9818a7580e642b3574aac3943bdc
 snippets/product_page_area.liquid:
 <<<<<<< HEAD
+<<<<<<< HEAD
   dev: 2018-05-20T15:51:52-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 =======
   dev: 2018-05-18T13:36:35-07:00   aee2aa25643098cff0c608160101c501
 >>>>>>> Update single variant prices to reflect new style.
+=======
+  dev: 2018-05-20T14:17:01-07:00   d0bbc6fb7f6dc7b9a770f43a3c9637d4
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-02-27T13:27:52-08:00   72ba9902be68302ac196e08bbe4b8218
   production: 2018-05-22T16:22:00-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 snippets/related-products-by-handle.liquid:
@@ -1613,10 +1663,14 @@ templates/product.json.liquid:
   development: 2018-02-19T07:33:50-08:00   bd1186a8d833e0bbeb8f5cb879138696
 templates/product.liquid:
 <<<<<<< HEAD
+<<<<<<< HEAD
   dev: 2018-05-22T10:00:00-07:00   85c008a2e67f1c3f11663bdec8b30b92
 =======
   dev: 2018-05-18T10:53:27-07:00   646c33140abda55f5543874ab2b18422
 >>>>>>> Update single variant prices to reflect new style.
+=======
+  dev: 2018-05-20T13:47:24-07:00   6752643994c6686815acc64b036d0bab
+>>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
   development: 2018-02-14T17:10:43-08:00   523bd937c760b49ee455d3b4c319e05f
   production: 2018-05-22T16:22:02-07:00   85c008a2e67f1c3f11663bdec8b30b92
 templates/product.quick_view.liquid:
