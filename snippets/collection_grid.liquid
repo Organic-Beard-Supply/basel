@@ -49,6 +49,7 @@
 {%- endcase -%}
 {%- endif -%}
 {%- case settings.products_hover -%}
+<script>console.log('test', {{ settings.products_hover | json}})</script>
     {%- when 'base' -%}
       {%- assign gl_include = 'section_loop_product_base' -%} 
     {%- when 'alt' -%}
@@ -67,14 +68,16 @@
       {%- assign gl_include = 'section_loop_product_quick' -%}
 {%- endcase -%}
 {%- case settings.collection_countdown_style -%}
-    {%- when 'light' -%}
-      {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-standard' -%} 
-    {%- when 'dark' -%}
-      {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-standard' -%}
-    {%- when 'transparent_1' -%}
-      {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-transparent' -%}
-   {%- when 'transparent_2' -%}
-      {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-transparent' -%}
+  {%- when 'light' -%}
+    {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-standard' -%} 
+  {%- when 'dark' -%}
+    {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-standard' -%}
+  {%- when 'transparent_1' -%}
+    {%- assign countdown_style = 'color-scheme-light timer-size-small timer-style-transparent' -%}
+  {%- when 'transparent_2' -%}
+    {%- assign countdown_style = 'color-scheme-dark timer-size-small timer-style-transparent' -%}
+  {%- when 'text' -%}
+    {%- assign countdown_style = 'timer-style-text' -%}
 {%- endcase -%}
 {%- if settings.sale_countdown -%}
    {%- assign section_settings_countdown = true -%}
