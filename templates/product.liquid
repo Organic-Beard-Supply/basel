@@ -106,9 +106,9 @@
             {% if settings.product_quantity_message %}
             if (variant.inventory_management) {
               if (variant.inventory_quantity < 10 && variant.inventory_quantity > 0) {
-                $variantQuantity.html({{ 'products.product.only_left' | t: count: '1' | json }}.replace('1', variant.inventory_quantity)).addClass('is-visible');
+                $variantQuantity.html('<span class="fa fa-exclamation-triangle text-warning"></span>' + {{ 'products.product.only_left' | t: count: '1' | json }}.replace('1', variant.inventory_quantity)).addClass('is-visible');
               } else if (variant.inventory_quantity <= 0 && variant.incoming) {
-                $variantQuantity.html({{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }}.replace('[date]', variant.next_incoming_date)).addClass('is-visible');
+                $variantQuantity.html('<span class="fa fa-exclamation-triangle text-info"></span>' + {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }}.replace('[date]', variant.next_incoming_date)).addClass('is-visible');
               } else {
                 $variantQuantity.removeClass('is-visible');
               }
@@ -118,10 +118,14 @@
             }
             {% endif %}
             // Update quantity.
-            if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null){
-               $addToCart.html({{ 'products.product.pre_orders' | t | json }});
-            }else{
-              $addToCart.html({{ 'products.product.add_to_cart' | t | json }});
+            if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null) {
+              $addToCart
+                .html({{ 'products.product.pre_orders' | t | json }})
+                .addClass('alt');
+            } else {
+              $addToCart
+                .html({{ 'products.product.add_to_cart' | t | json }})
+                .removeClass('alt');
             }
             if(variant.inventory_management != null ){
               //Check if inventory management by shopify
