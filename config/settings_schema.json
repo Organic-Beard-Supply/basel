@@ -2902,7 +2902,10 @@
         "id": "product_quantity_limit",
         "label": "Remaining quantity threshold",
         "min": 1,
+<<<<<<< HEAD
         "max": 101,
+=======
+>>>>>>> remove hard coded threshfold for showing product quantity message and made it customizable through settings (theme editor).
         "step": 1,
         "default": 10
       },
