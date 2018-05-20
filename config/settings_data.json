@@ -154,7 +154,7 @@
     "products_hover": "quick",
     "sale_countdown": false,
     "loop_sale_countdown": false,
-    "collection_countdown_style": "dark",
+    "collection_countdown_style": "text",
     "ajax_shop": true,
     "shop_filters": true,
     "shop_show_per_page": false,

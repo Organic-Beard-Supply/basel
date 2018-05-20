@@ -1,3 +1,20 @@
+<style>
+  .table.table-borderless>thead>tr>th, .table.table-borderless>tbody>tr>th, .table.table-borderless>tfoot>tr>th, .table.table-borderless>thead>tr>td, .table.table-borderless>tbody>tr>td, .table.table-borderless>tfoot>tr>td {
+    border: none;
+  }
+  .table-slim>thead>tr>th, .table-slim>tbody>tr>th, .table-slim>tfoot>tr>th, .table-slim>thead>tr>td, .table-slim>tbody>tr>td, .table-slim>tfoot>tr>td {
+    padding: 0 3px;
+    line-height: normal;
+    vertical-align: middle;
+  }
+  .table.table-even-width tr td {
+    width: 50%;
+  }
+  .price-sale {
+    color: {{ settings.color_sale_bg }};
+  }
+</style>
+
 {%- include 'current_variant' -%}
 {%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}
 {%- unless image_size -%}
@@ -65,14 +82,46 @@
    <div class="swatches-wrapper">{%- include 'swatches_on_grid' -%}</div>
    {%- endif -%}
    <h3 class="product-title"><a href="{{ url_nt | within: collection }}">{{ product.title }}</a></h3>
-   {%- if settings.show_product_rating -%}<div class="gl_star-rating"><span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span></div>{%- endif -%}
-   <span class="price">
-       {%- if product.price_varies -%}
-       {{ product.price_min | money }} – {{ product.price_max | money }}
-       {%- elsif on_sale -%}<del>{{ current_variant.compare_at_price  | money }}</del> <ins>{{ current_variant.price | money }}</ins>
-       {%- else -%}
-       {{ current_variant.price | money }}
-       {%- endif -%}
-    </span>
-   {%- include 'basel_count_down' -%}
+   {%- if settings.show_product_rating -%}
+    <div class="gl_star-rating"><span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span></div>
+  {%- endif -%}
+  <table class="table table-slim table-borderless price" style="display: table;">
+    {%- if on_sale -%}
+      <tr>
+        <td class="text-right">Price:</td>
+        <td class="text-left">
+          <del>{{current_variant.compare_at_price | money }}</del>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-right">Sale:</td>
+        <td class="text-left">
+            <ins>{{ current_variant.price | money }}</ins>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="text-left">
+          {%- assign section_settings_countdown = settings.loop_show_countdown -%}
+          {%- include 'basel_count_down' -%}
+        </td>
+      </tr>
+      <tr>
+      <td colspan="2" class="text-center">
+        {%- assign saved_money = current_variant.compare_at_price | minus: current_variant.price | money -%}
+        {%- assign saved_percentage = current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round: 2 -%}
+        <span class="price-sale">
+          <small>save {{saved_money}} ({{saved_percentage}}%)</small>
+        </span>
+      </td>
+      </tr>
+    {% else %}
+      <tr>
+        <td class="text-right">Price:</td>
+        <td class="text-left">
+          {{ current_variant.price | money }}
+        </td>
+      </tr> 
+    {%- endif -%}
+  </table>
 </div>
