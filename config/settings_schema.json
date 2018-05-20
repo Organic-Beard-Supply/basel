@@ -2908,6 +2908,13 @@
       },
       {
         "type": "checkbox",
+        "id": "use_description_with_subscription",
+        "label": "Show Product description with subscription options?",
+        "info": "If set to true, the rules for excerpt or full description will be followed. If set to false, any description will be hidden if a subscription option is available.",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "use_description_excerpt",
         "label": "Show Product short description?",
         "info": "If you will set this option to 'Excerpt' then you are able to set custom excerpt for each the description of the product (Metafields:meta.description_excerpt) or it will be cutted from the product content",
@@ -2917,7 +2924,7 @@
         "type": "checkbox",
         "id": "use_description_full",
         "label": "Use description excerpt full?",
-        "info": "it will be not cutted from the product content",
+        "info": "it will be not shortened from the product content",
         "default": false
       },
       {
