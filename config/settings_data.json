@@ -195,7 +195,7 @@
     "use_view_360": false,
     "use_clicking_variant_image": true,
     "product_quantity_message": true,
-    "product_quantity_limit": "30",
+    "product_quantity_limit": "10",
     "use_description_with_subscription": false,
     "use_description_excerpt": true,
     "use_description_full": false,

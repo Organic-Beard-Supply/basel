@@ -247,7 +247,7 @@
                          {%- if settings.product_quantity_message -%}
                            <div id="variantQuantity" class="variant-quantity{%- if current_variant.inventory_management %} show{%- endif -%}">
                               {%- if current_variant.inventory_management -%}
-                                 {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                 {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
                                     {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                                  {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                                     {%- assign next_incoming_date = current_variant.next_incoming_date | date: format: 'month_day_year' -%}
@@ -285,7 +285,7 @@
                                     {%- if settings.product_quantity_message -%}
                                        <div id="variantQuantity_quick" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
                                           {%- if product.has_only_default_variant and current_variant.inventory_management -%}
-                                             {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                             {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
                                                 {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                                              {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                                                 {{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
@@ -317,7 +317,7 @@
                                  {%- if settings.product_quantity_message -%}
                                     <div id="variantQuantity" class="variant-quantity{%- if product.has_only_default_variant and current_variant.inventory_management %} show{%- endif -%}">
                                        {%- if product.has_only_default_variant and current_variant.inventory_management -%}
-                                          {%- if current_variant.inventory_quantity < 10 and current_variant.inventory_quantity > 0 -%}
+                                          {%- if current_variant.inventory_quantity < settings.product_quantity_limit and current_variant.inventory_quantity > 0 -%}
                                              {{ 'products.product.only_left' | t: count: current_variant.inventory_quantity }}
                                           {%- elsif current_variant.inventory_quantity <= 0 and current_variant.incoming -%}
                                              {{ 'products.product.will_not_ship_until' | t: date: current_variant.next_incoming_date }}
