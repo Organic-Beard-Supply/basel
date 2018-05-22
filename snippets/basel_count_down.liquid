@@ -16,71 +16,97 @@
 	{%- assign day_now_text = "now" | date: "%e" | downcase -%}
 	{%- if year > 0 and month > 0 and month < 13 and day > 0 and day < 32 -%}{%- assign check_hople = true -%}{%- endif -%}
 	{%- if check_hople -%}
-	    {%- if year < year_now -%}{%- assign check_countdown = false -%}
-        {%- elsif year < year_now and month < month_now -%}{%- assign check_countdown = false -%}
-		{%- elsif year < year_now and month < month_now and day < day_now -%}{%- assign check_countdown = false -%}
-        {%- endif -%}
+	  {%- if year < year_now -%}
+      {%- assign check_countdown = false -%}
+    {%- elsif year < year_now and month < month_now -%}
+      {%- assign check_countdown = false -%}
+		{%- elsif year < year_now and month < month_now and day < day_now -%}
+      {%- assign check_countdown = false -%}
+    {%- endif -%}
 		{%- if check_countdown == false -%}
-         {%- if loop_countdown or product.metafields.meta.loop_countdown contains 'true' -%}
+      {%- if loop_countdown or product.metafields.meta.loop_countdown contains 'true' -%}
 				{%- assign _user_countdown = "now" | date: "%Y/%m/%d" -%}
 				{%- assign _user_countdown = _user_countdown | split: '/' -%}
 				{%- assign _user_countdown_one = _user_countdown[0] -%}
-				{%- if month_now == 2 -%}
-				   {%- comment -%}check leap year{%- endcomment -%}
-				   {%- assign year_now_1 = year_now | modulo:4 -%}
-				   {%- assign year_now_2 = year_now | modulo:100 -%}
-				   {%- assign year_now_3 = year_now | modulo:400 -%}
-				   {%- if year_now_1 == 0 and year_now_2 != 0 -%}
-				      {%- assign feb = 29 -%}
-				   {%- elsif year_now_3 == 0 -%}
-				      {%- assign feb = 29 -%}
-				   {%- else -%}
-				      {%- assign feb = 28 -%}
-				   {%- endif -%}
-				    {%- if day > feb -%}
-				      {%- assign _user_countdown_three = feb | strip -%}
-				      {%- assign check_day = true -%}
-				    {%- else -%}
-				      {%- assign _user_countdown_three = day | strip -%}
-				    {%- endif -%}
-				{%- elsif month_now == 4 or month_now == 6 or month_now == 9 or month_now == 11 -%}
-				     {%- if day > 30 -%}
-				        {%- assign _user_countdown_three = 30 | strip -%}
-				        {%- assign check_day = true -%}
-				     {%- else -%}
-				        {%- assign _user_countdown_three = day | strip -%}
-				     {%- endif -%}
-				{%- else -%}
-				   {%- assign _user_countdown_three = day_now_text | strip -%}
-				{%- endif -%}
-                {%- if month_now > 11 -%}
+				
+        {%- if month_now == 2 -%}
+				  {%- comment -%}check leap year{%- endcomment -%}
+				  {%- assign year_now_1 = year_now | modulo:4 -%}
+				  {%- assign year_now_2 = year_now | modulo:100 -%}
+				  {%- assign year_now_3 = year_now | modulo:400 -%}
+				  
+          {%- if year_now_1 == 0 and year_now_2 != 0 -%}
+				    {%- assign feb = 29 -%}
+				  {%- elsif year_now_3 == 0 -%}
+				    {%- assign feb = 29 -%}
+				  {%- else -%}
+				    {%- assign feb = 28 -%}
+				  {%- endif -%}
+				  
+          {%- if day > feb -%}
+				    {%- assign _user_countdown_three = feb | strip -%}
+				    {%- assign check_day = true -%}
+				  {%- else -%}
+				    {%- assign _user_countdown_three = day | strip -%}
+				  {%- endif -%}
+				
+        {%- elsif month_now == 4 or month_now == 6 or month_now == 9 or month_now == 11 -%}
+				  
+          {%- if day > 30 -%}
+				    {%- assign _user_countdown_three = 30 | strip -%}
+				    {%- assign check_day = true -%}
+				  {%- else -%}
+				    {%- assign _user_countdown_three = day | strip -%}
+				  {%- endif -%}
+				
+        {%- else -%}
+				  {%- assign _user_countdown_three = day_now_text | strip -%}
+        {%- endif -%}
+        
+        {%- if month_now > 11 -%}
 					{%- assign month_text = 1 -%}
 				{%- else -%}
 					{%- assign _month_text = month_now | plus:1 -%}
-				    {%- assign month_text = _month_text | downcase -%}
+				  {%- assign month_text = _month_text | downcase -%}
 				{%- endif -%}
-                {%- comment -%}
+        {%- comment -%}
 				{%- if month_now > 11 -%}
 					{%- assign month_text = 1 -%}
 				{%- elsif check_day -%}
-				   {%- assign _month_text = month_now | plus:1 -%}
-				   {%- assign month_text = _month_text | downcase -%}
+				  {%- assign _month_text = month_now | plus:1 -%}
+				  {%- assign month_text = _month_text | downcase -%}
 				{%- else -%}
 					{%- assign _month_text = month_now -%}
 					{%- assign month_text = _month_text | downcase -%}
 				{%- endif -%}
-                {%- endcomment -%}
+        {%- endcomment -%}
 				{%- assign _user_countdown_two = _user_countdown[1] | replace: month_now_text, month_text -%}
 				{%- assign _user_countdown = _user_countdown_one | append: '/' | append: _user_countdown_two | append: '/' | append: _user_countdown_three -%}
 			{%- endif -%}
 		{%- else -%}
-			{%- assign check_countdown = true -%}
+			
+      {%- assign check_countdown = true -%}
 			{%- assign _user_countdown = user_countdown -%}
-		{%- endif -%}
-		{%- if check_countdown or loop_countdown -%}
-		<div class="basel-countdown-timer {{ countdown_style }}">
-		  <div class="basel-product-countdown basel-timer" data-end-date="{{ _user_countdown }}"></div>
-		</div>
+		
+    {%- endif -%}
+		
+    {%- if check_countdown or loop_countdown -%}
+      {%- if settings.countdown_style == 'text' -%}
+				<style>
+					.timer-style-text {
+						font-size: .9em;
+    				margin-bottom: 3px;
+    				{%- if settings.color_title_products != blank and settings.color_title_products != 'rgba(0,0,0,0)'-%}
+							color: {{settings.color_title_products}};
+						{%- endif -%}
+					}
+				</style>
+        <p class="{{ countdown_style }}">Ends in <span class="basel-timer" data-end-date="{{ _user_countdown }}"></span></p>
+      {%- else -%}
+        <div class="basel-countdown-timer {{ countdown_style }}">
+          <div class="basel-product-countdown basel-timer" data-end-date="{{ _user_countdown }}"></div>
+			  </div>
+      {%- endif -%}
 		{%- endif -%}
 	{%- endif -%}
 {%- endif -%}

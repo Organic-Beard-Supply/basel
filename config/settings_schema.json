@@ -2405,6 +2405,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -2894,6 +2898,21 @@
         "default": false
       },
       {
+        "type": "range",
+        "id": "product_quantity_limit",
+        "label": "Remaining quantity threshold",
+        "min": 1,
+        "step": 1,
+        "default": 10
+      },
+      {
+        "type": "checkbox",
+        "id": "use_description_with_subscription",
+        "label": "Show Product description with subscription options?",
+        "info": "If set to true, the rules for excerpt or full description will be followed. If set to false, any description will be hidden if a subscription option is available.",
+        "default": true
+      },
+      {
         "type": "checkbox",
         "id": "use_description_excerpt",
         "label": "Show Product short description?",
@@ -2904,7 +2923,7 @@
         "type": "checkbox",
         "id": "use_description_full",
         "label": "Use description excerpt full?",
-        "info": "it will be not cutted from the product content",
+        "info": "it will be not shortened from the product content",
         "default": false
       },
       {
@@ -3088,6 +3107,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -3221,6 +3244,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
@@ -3414,6 +3441,10 @@
           {
             "value": "transparent_2",
             "label": "Countdown timer transparent 2"
+          },
+          {
+            "value": "text",
+            "label": "Countdown timer text"
           }
         ]
       },
