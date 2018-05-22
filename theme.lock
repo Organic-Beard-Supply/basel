@@ -27,12 +27,6 @@ assets/2f17f-parallax-bg2.jpg:
 assets/1d07a-bag-on-slider-demo.png:
   dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
   development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
-assets/23d3e-slide-hero-6.jpg:
-  dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
-  development: 2018-02-14T17:10:19-08:00   a2d002bec21b2a45da76990bdd9a23ba
-assets/25dfd-slide-hero-7.jpg:
-  dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
-  development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
 assets/2c423-slide_cosm_1.png:
   dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
   development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
@@ -79,14 +73,18 @@ assets/17d47-market-slide-guitar-1.png:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
 assets/23d3e-slide-hero-6.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:19-08:00   a2d002bec21b2a45da76990bdd9a23ba
 assets/25dfd-slide-hero-7.jpg:
   dev: 2018-04-26T12:52:46-07:00   a2d002bec21b2a45da76990bdd9a23ba
   development: 2018-02-14T17:10:20-08:00   a2d002bec21b2a45da76990bdd9a23ba
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -111,6 +109,8 @@ assets/77ef7-slide-juw.jpg:
 =======
 =======
 >>>>>>> remove hard coded threshfold for showing product quantity message and made it customizable through settings (theme editor).
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
 assets/34e8d-slider-bikini-5.jpg:
   dev: 2018-04-26T12:52:47-07:00   7618c3c30be0b7f19bd5d5ac725616a5
   development: 2018-02-14T17:10:20-08:00   7618c3c30be0b7f19bd5d5ac725616a5
@@ -378,6 +378,7 @@ assets/dummy-corp-slide-2.jpg:
   development: 2018-02-14T17:10:28-08:00   35aad06acffd4e4760cf344654d95b29
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 assets/e2b7d-slide-2-2.jpg:
   dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
   development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
@@ -396,6 +397,8 @@ assets/e0bfd-slider-main-img-1.jpg:
 assets/e2b7d-slide-2-2.jpg:
   dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
   development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
 assets/e04a5-slide_cosm_1-1.jpg:
   dev: 2018-04-26T12:52:54-07:00   2198150da20231ec249194d915bc804f
   development: 2018-02-14T17:10:28-08:00   2198150da20231ec249194d915bc804f
@@ -405,7 +408,13 @@ assets/e04a5-slide_cosm_1-1.jpg:
 assets/e0bfd-slider-main-img-1.jpg:
   dev: 2018-04-26T12:52:54-07:00   9fb2dfb912898eea169b085a94c8e2f5
   development: 2018-02-14T17:10:28-08:00   9fb2dfb912898eea169b085a94c8e2f5
+<<<<<<< HEAD
 >>>>>>> remove hard coded threshfold for showing product quantity message and made it customizable through settings (theme editor).
+=======
+assets/e2b7d-slide-2-2.jpg:
+  dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
+  development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
 assets/eb870-slider-bikini-6.jpg:
   dev: 2018-04-26T12:52:55-07:00   7618c3c30be0b7f19bd5d5ac725616a5
   development: 2018-02-14T17:10:28-08:00   7618c3c30be0b7f19bd5d5ac725616a5
@@ -1732,6 +1741,7 @@ templates/product.liquid:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   dev: 2018-05-22T10:00:00-07:00   85c008a2e67f1c3f11663bdec8b30b92
 =======
   dev: 2018-05-18T10:53:27-07:00   646c33140abda55f5543874ab2b18422
@@ -1742,6 +1752,9 @@ templates/product.liquid:
 =======
   dev: 2018-05-20T15:58:26-07:00   3459a3c4072294c1907fce338b378c87
 >>>>>>> remove hard coded threshfold for showing product quantity message and made it customizable through settings (theme editor).
+=======
+  dev: 2018-05-22T10:00:00-07:00   85c008a2e67f1c3f11663bdec8b30b92
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
   development: 2018-02-14T17:10:43-08:00   523bd937c760b49ee455d3b4c319e05f
   production: 2018-05-22T16:22:02-07:00   85c008a2e67f1c3f11663bdec8b30b92
 templates/product.quick_view.liquid:
