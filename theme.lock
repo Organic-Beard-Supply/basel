@@ -8,9 +8,6 @@ assets/1-red.jpg.crdownload:
 assets/1-red5.jpg:
   dev: 2018-04-26T12:52:45-07:00   00afc830e9d71e86d88e2e709ab68faa
   development: 2018-02-14T17:10:19-08:00   00afc830e9d71e86d88e2e709ab68faa
-assets/1d07a-bag-on-slider-demo.png:
-  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
-  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/2c423-slide_cosm_1.png:
   dev: 2018-04-26T12:52:46-07:00   918a0bb88b0b6f65975cb3d382eee973
   development: 2018-02-14T17:10:20-08:00   918a0bb88b0b6f65975cb3d382eee973
@@ -20,15 +17,15 @@ assets/2f17f-parallax-bg2.jpg:
 assets/3a923-parallax-bg.jpg:
   dev: 2018-04-26T12:52:47-07:00   8920f43d3c6e15c2efd76c62b0a2d669
   development: 2018-02-14T17:10:20-08:00   8920f43d3c6e15c2efd76c62b0a2d669
+assets/77ef7-slide-juw.jpg:
+  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
+  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
 assets/7f9a7-jew-slider1.jpg:
   dev: 2018-04-26T12:52:48-07:00   59bd8b7b6e642df29244c110b4025422
   development: 2018-02-14T17:10:21-08:00   59bd8b7b6e642df29244c110b4025422
 assets/08b64-slider-flowers.jpg:
   dev: 2018-04-26T12:52:44-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:18-08:00   2159e42b7614b8506adb8d15c6725a43
-assets/15d7d-slide-1.png:
-  dev: 2018-04-26T12:52:45-07:00   fcda4923a59cd9b09a78b10ca31f79a8
-  development: 2018-02-14T17:10:19-08:00   fcda4923a59cd9b09a78b10ca31f79a8
 assets/17d47-market-slide-guitar-1.png:
   dev: 2018-04-26T12:52:45-07:00   5eede39456c4bb0f7a62f2eebf6ca9d0
   development: 2018-02-14T17:10:19-08:00   5eede39456c4bb0f7a62f2eebf6ca9d0
@@ -47,9 +44,6 @@ assets/50ef4-divider-flower.png:
 assets/60f9c-obs-packging.jpg:
   dev: 2018-04-26T12:52:47-07:00   ebb3939280221deebacb77b52420f713
   development: 2018-02-14T17:10:21-08:00   ebb3939280221deebacb77b52420f713
-assets/77ef7-slide-juw.jpg:
-  dev: 2018-04-26T12:52:48-07:00   c541e59ac9ce861c8e1590b6ff12058d
-  development: 2018-02-14T17:10:21-08:00   c541e59ac9ce861c8e1590b6ff12058d
 assets/137c9-market-slide-boot-3.png:
   dev: 2018-04-26T12:52:45-07:00   6855b76e2ae71f51264ced392eb30a28
   development: 2018-02-14T17:10:19-08:00   6855b76e2ae71f51264ced392eb30a28
@@ -68,6 +62,12 @@ assets/807e8-obs-table-top-bg.jpg:
 assets/1541e-market-slide-boot-1.png:
   dev: 2018-04-26T12:52:45-07:00   c33e3cd96de56a69273a59c0488500ec
   development: 2018-02-14T17:10:19-08:00   c33e3cd96de56a69273a59c0488500ec
+assets/15d7d-slide-1.png:
+  dev: 2018-04-26T12:52:45-07:00   fcda4923a59cd9b09a78b10ca31f79a8
+  development: 2018-02-14T17:10:19-08:00   fcda4923a59cd9b09a78b10ca31f79a8
+assets/1d07a-bag-on-slider-demo.png:
+  dev: 2018-04-26T12:52:45-07:00   327a59f793cb38274c4f2eaba465fcbe
+  development: 2018-02-14T17:10:19-08:00   327a59f793cb38274c4f2eaba465fcbe
 assets/2650b-main-big-baner-2.jpg:
   dev: 2018-04-26T12:52:46-07:00   2159e42b7614b8506adb8d15c6725a43
   development: 2018-02-14T17:10:20-08:00   2159e42b7614b8506adb8d15c6725a43
@@ -287,15 +287,15 @@ assets/dummy-corp-slide-1.jpg:
 assets/dummy-corp-slide-2.jpg:
   dev: 2018-04-26T12:52:54-07:00   35aad06acffd4e4760cf344654d95b29
   development: 2018-02-14T17:10:28-08:00   35aad06acffd4e4760cf344654d95b29
+assets/e2b7d-slide-2-2.jpg:
+  dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
+  development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
 assets/e04a5-slide_cosm_1-1.jpg:
   dev: 2018-04-26T12:52:54-07:00   2198150da20231ec249194d915bc804f
   development: 2018-02-14T17:10:28-08:00   2198150da20231ec249194d915bc804f
 assets/e0bfd-slider-main-img-1.jpg:
   dev: 2018-04-26T12:52:54-07:00   9fb2dfb912898eea169b085a94c8e2f5
   development: 2018-02-14T17:10:28-08:00   9fb2dfb912898eea169b085a94c8e2f5
-assets/e2b7d-slide-2-2.jpg:
-  dev: 2018-04-26T12:52:55-07:00   34ade257dc08ea6d5c5e91065a4c689f
-  development: 2018-02-14T17:10:28-08:00   34ade257dc08ea6d5c5e91065a4c689f
 assets/eb870-slider-bikini-6.jpg:
   dev: 2018-04-26T12:52:55-07:00   7618c3c30be0b7f19bd5d5ac725616a5
   development: 2018-02-14T17:10:28-08:00   7618c3c30be0b7f19bd5d5ac725616a5
@@ -662,8 +662,9 @@ config/settings_data.json:
   production: 2018-05-03T15:01:30-07:00   cb17402aa0f1b8946a72470260387537
   staging: 2018-04-26T12:53:57-07:00   f30f43dd7412a8a5ac7a96e37d2b0ab5
 config/settings_schema.json:
-  dev: 2018-05-20T14:07:05-07:00   cd607dcbc868cfa52c8bfeff844813e3
+  dev: 2018-05-22T16:18:48-07:00   ffc4e488a9ff0b81c1527a64ddbddf0c
   development: 2018-02-14T17:10:44-08:00   fe8ea408acaed3281a728bcf5a6fb326
+  production: 2018-05-22T16:22:01-07:00   ffc4e488a9ff0b81c1527a64ddbddf0c
 layout/gift_card.liquid:
   dev: 2018-04-26T12:53:12-07:00   876374b0950e11992ce087d1d2bad3c8
   development: 2018-02-14T17:10:38-08:00   876374b0950e11992ce087d1d2bad3c8
@@ -862,6 +863,7 @@ snippets/basel-promo-popup.liquid:
 snippets/basel_count_down.liquid:
   dev: 2018-05-04T09:51:22-07:00   6ffbba67079268cdc8a515d3d0be7226
   development: 2018-02-14T17:10:38-08:00   3359ba477387a24c7b9cd52bcc54237e
+  production: 2018-05-22T16:22:03-07:00   6ffbba67079268cdc8a515d3d0be7226
 snippets/brand_link.liquid:
   dev: 2018-04-26T12:53:12-07:00   13d63a2bb7ea66dc756baa3f12a9d183
   development: 2018-02-14T17:10:38-08:00   13d63a2bb7ea66dc756baa3f12a9d183
@@ -907,9 +909,11 @@ snippets/collection_ajax_list.liquid:
 snippets/collection_grid.liquid:
   dev: 2018-05-20T14:45:06-07:00   a37dc770ff8368ea50e7af4cfb6c319c
   development: 2018-02-19T15:51:21-08:00   aaacc949b014db5c16039f831de8cbc0
+  production: 2018-05-22T16:22:02-07:00   a37dc770ff8368ea50e7af4cfb6c319c
 snippets/collection_list.liquid:
   dev: 2018-05-20T15:33:58-07:00   ba27091918bce1edbf4073b2f719c5af
   development: 2018-02-14T17:10:38-08:00   7370d58a44f1dbed101bb95b772dc752
+  production: 2018-05-22T16:22:00-07:00   ba27091918bce1edbf4073b2f719c5af
 snippets/comment.liquid:
   dev: 2018-04-26T12:53:13-07:00   50406c82467014e1bbe15a62685b2536
   development: 2018-02-14T17:10:38-08:00   50406c82467014e1bbe15a62685b2536
@@ -1246,6 +1250,7 @@ snippets/product_one_image.liquid:
 snippets/product_page_area.liquid:
   dev: 2018-05-20T15:51:52-07:00   c1814e2449bc44a6be67ecd7a32e4c38
   development: 2018-02-27T13:27:52-08:00   72ba9902be68302ac196e08bbe4b8218
+  production: 2018-05-22T16:22:00-07:00   c1814e2449bc44a6be67ecd7a32e4c38
 snippets/related-products-by-handle.liquid:
   dev: 2018-04-26T12:53:17-07:00   7a245db13c5fb8056e15fa0de08f4e84
   development: 2018-02-14T17:10:41-08:00   7a245db13c5fb8056e15fa0de08f4e84
@@ -1297,6 +1302,7 @@ snippets/section_loop_product_link.liquid:
 snippets/section_loop_product_quick.liquid:
   dev: 2018-05-20T15:18:14-07:00   57a4b81c0744500c3642eb07a5233b64
   development: 2018-02-18T17:14:32-08:00   4420d036af06b4dce4bb0a4193a4a4fc
+  production: 2018-05-22T16:22:01-07:00   57a4b81c0744500c3642eb07a5233b64
 snippets/section_loop_product_shopify.liquid:
   dev: 2018-04-26T12:53:17-07:00   b722952d92ab4d205b8a6da5dde4bd1f
   development: 2018-02-14T17:10:41-08:00   b722952d92ab4d205b8a6da5dde4bd1f
@@ -1375,6 +1381,7 @@ snippets/subscription-cart-footer.liquid:
 snippets/subscription-product.liquid:
   dev: 2018-05-20T12:54:35-07:00   33a684533e041e7e3afbe0af467abcc0
   development: 2018-02-19T07:09:40-08:00   7b4fed2f5558973ae0178d677866b641
+  production: 2018-05-22T16:22:04-07:00   33a684533e041e7e3afbe0af467abcc0
 snippets/subscription-theme-footer.liquid:
   dev: 2018-04-26T12:53:18-07:00   12b2680357a3f273b47c07d9baf7252f
   development: 2018-02-15T13:08:00-08:00   12b2680357a3f273b47c07d9baf7252f
@@ -1582,9 +1589,11 @@ templates/product.json.liquid:
 templates/product.liquid:
   dev: 2018-05-22T10:00:00-07:00   85c008a2e67f1c3f11663bdec8b30b92
   development: 2018-02-14T17:10:43-08:00   523bd937c760b49ee455d3b4c319e05f
+  production: 2018-05-22T16:22:02-07:00   85c008a2e67f1c3f11663bdec8b30b92
 templates/product.quick_view.liquid:
   dev: 2018-05-20T15:52:47-07:00   f297b2c4521fcf5833e2f6fd36bb7d5c
   development: 2018-02-18T17:05:59-08:00   3e609c152a2e0c7905759c51a5b87dc0
+  production: 2018-05-22T16:22:03-07:00   f297b2c4521fcf5833e2f6fd36bb7d5c
 templates/search.category.liquid:
   dev: 2018-04-26T12:53:21-07:00   a75945841a979e0d98a5a7576fc08ae0
   development: 2018-02-14T17:10:43-08:00   a75945841a979e0d98a5a7576fc08ae0
