@@ -78,6 +78,9 @@
           {%- assign check_variant_one = true -%}
           {%- break -%}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
         {% endif %}
       {%- endfor -%}
     {%- endif -%}
@@ -137,6 +140,7 @@
               // Update quantity.
               if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null) {
                 $addToCart.html({{ 'products.product.pre_orders' | t | json }}).addClass('alt');
+<<<<<<< HEAD
 =======
       {% endif %}
    {%- endfor -%}
@@ -184,6 +188,8 @@
               } else if (variant.inventory_quantity <= 0 && variant.incoming) {
                 $variantQuantity.html('<span class="fa fa-exclamation-triangle text-info"></span>' + {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }}.replace('[date]', variant.next_incoming_date)).addClass('is-visible');
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
               } else {
                 $addToCart.html({{ 'products.product.add_to_cart' | t | json }}).removeClass('alt');
               }
@@ -218,6 +224,7 @@
               {% endfor %}
             {% endif %}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             // Update quantity.
             if (variant.inventory_quantity <= 0 && variant.available && variant.inventory_management != null) {
@@ -236,6 +243,8 @@
               $input.attr('max',999);
             }
 >>>>>>> increased the size of the quantity and add-to-cart button. Updated pre-order button to distinguish from add-to-cart button. Add setting to show/hide description when subscription exists. Update ux for single/multiple variant with and without subscriptions.
+=======
+>>>>>>> Fix bug when 'you save' indicator for products with one variant and subscriptions wasn't updating.
 
             if (discount_variant_price) {
               var $selected_recurring_option = $('#rc_container input[type="radio"]:checked');
