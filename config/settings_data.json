@@ -152,7 +152,7 @@
     "use_pagination": "infinit",
     "products_columns": "4",
     "products_hover": "quick",
-    "sale_countdown": false,
+    "sale_countdown": true,
     "loop_sale_countdown": false,
     "collection_countdown_style": "text",
     "ajax_shop": true,
@@ -195,7 +195,7 @@
     "use_view_360": false,
     "use_clicking_variant_image": true,
     "product_quantity_message": true,
-    "product_quantity_limit": "10",
+    "product_quantity_limit": 10,
     "use_description_with_subscription": false,
     "use_description_excerpt": true,
     "use_description_full": false,
@@ -209,7 +209,7 @@
     "swatch_design": "1",
     "swatch_style": "1",
     "swatch_size": "small",
-    "show_countdown": false,
+    "show_countdown": true,
     "loop_show_countdown": false,
     "countdown_style": "text",
     "show_related_products": true,
@@ -281,7 +281,7 @@
     "display_popup_cookies_blog": false,
     "display_popup_cookies_cart": false,
     "display_popup_cookies_page": false,
-    "enable_suggest_products": true,
+    "enable_suggest_products": false,
     "collection_suggest": "aromacare",
     "display_index": true,
     "display_product": false,
@@ -484,12 +484,6 @@
               "title": "Details"
             }
           },
-          "1497870204981": {
-            "type": "additional",
-            "settings": {
-              "title": "Additional Information"
-            }
-          },
           "1497870197904": {
             "type": "review",
             "settings": {
@@ -507,7 +501,6 @@
         },
         "block_order": [
           "1497870185984",
-          "1497870204981",
           "1497870197904",
           "1497870213063"
         ],
@@ -920,7 +913,7 @@
               "title": "Shop",
               "icon": "pagelines",
               "button_link": "shopify:\/\/collections",
-              "label": "sale",
+              "label": "",
               "color": "#d9320d",
               "show_img": false,
               "banner": "",
@@ -1365,10 +1358,29 @@
               "banner_color": "light",
               "enable_increase": true
             }
+          },
+          "1527448821871": {
+            "type": "item",
+            "settings": {
+              "title": "B2C Lifestyle Flash Sale",
+              "collection_id": "",
+              "image": "shopify:\/\/shop_images\/lifestyle-flash-sale-banner.jpg",
+              "banner_content": "<span> <\/span>",
+              "banner_btn_title": "",
+              "banner_link": "",
+              "button_style_color": "default",
+              "banner_alignment": "center",
+              "banner_vertical_alignment": "top",
+              "banner_effect": "default",
+              "banner_content_style": "default",
+              "banner_color": "light",
+              "enable_increase": false
+            }
           }
         },
         "block_order": [
-          "1501643382367"
+          "1501643382367",
+          "1527448821871"
         ],
         "settings": {}
       },
@@ -1641,7 +1653,7 @@
           "section_border_color": "",
           "section_border_style": "solid",
           "section_border": "",
-          "section_margin_top": "7rem",
+          "section_margin_top": "6rem",
           "section_margin_bottom": "",
           "section_padding_top": "",
           "section_padding_right": "",
