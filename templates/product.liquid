@@ -1,6 +1,23 @@
 {%- comment -%}
   Teathemes https://teathemes.net/forums/
 {%- endcomment -%}
+
+<style>
+  /* product hover custom css */
+  .basel-hover-quick .quick-shop-wrapper.subscriptions { 
+    top: -webkit-calc(100% + 80px); 
+    top: expression(100% + 80); 
+    top: -moz-calc(100% + 80); 
+    top: -o-calc(100% + 80); 
+    top: calc(100% + 80px); 
+  }
+  
+  .basel-hover-quick:hover .quick-shop-wrapper { 
+    transform: translate3d(0,-80px,0);
+    -webkit-transform: translate3d(0,-80px,0); 
+  }
+</style>
+
 {%- case settings.design_products -%}
 {%- when '1' -%}
    {%- assign design_products_page = "product-design-default" -%}
