@@ -1,6 +1,5 @@
 SHARED: &SHARED
-  store: organic-beard-supply.myshopify.com
-  password: 43b92ea531486beb0b68653657058048
+  # store and password are stored in env variables.
   ignore_files:
     - "*.swp"
     - "*~"
